@@ -1,0 +1,550 @@
+[
+  {
+    "isStage": true,
+    "name": "Stage",
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "my variable",
+        0
+      ]
+    },
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 1,
+    "costumes": [
+      {
+        "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+        "name": "backdrop1",
+        "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "assetId": "92968ac16b2f0c3f7835a6dacd172c7b",
+        "name": "Forest",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      }
+    ],
+    "sounds": [
+      {
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "name": "pop",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1123,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 0,
+    "tempo": 60,
+    "videoTransparency": 50,
+    "videoState": "on",
+    "textToSpeechLanguage": null
+  },
+  {
+    "isStage": false,
+    "name": "Butterfly 1",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "|!RAm{F.SYwXy}a%~E(X": {
+        "opcode": "event_whenflagclicked",
+        "next": "*wL_tl,`]vfinq3Z1*Ui",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 426,
+        "y": 211
+      },
+      "*wL_tl,`]vfinq3Z1*Ui": {
+        "opcode": "looks_show",
+        "next": ":}vo*B!AG!VwH7Bxu7[H",
+        "parent": "|!RAm{F.SYwXy}a%~E(X",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ":}vo*B!AG!VwH7Bxu7[H": {
+        "opcode": "motion_gotoxy",
+        "next": "`HknJV5X*T9vlb6(nFRM",
+        "parent": "*wL_tl,`]vfinq3Z1*Ui",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "-93"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "82"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "`HknJV5X*T9vlb6(nFRM": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "|ceu%r~xheIy6bip}`-r",
+        "parent": ":}vo*B!AG!VwH7Bxu7[H",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "105"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "24"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "|ceu%r~xheIy6bip}`-r": {
+        "opcode": "looks_sayforsecs",
+        "next": "Lf|8$?c/t#dADtk=M(A)",
+        "parent": "`HknJV5X*T9vlb6(nFRM",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Wah, ada bunga nih. Bisa buat makan nih."
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Lf|8$?c/t#dADtk=M(A)": {
+        "opcode": "control_wait",
+        "next": "DVA~P169OFM{;$8]!^j)",
+        "parent": "|ceu%r~xheIy6bip}`-r",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "3.5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "DVA~P169OFM{;$8]!^j)": {
+        "opcode": "looks_sayforsecs",
+        "next": "IsdU/m[J*K1WB?TP1[`4",
+        "parent": "Lf|8$?c/t#dADtk=M(A)",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini bukan punya mu tapi punya ku!"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "IsdU/m[J*K1WB?TP1[`4": {
+        "opcode": "control_wait",
+        "next": "qbHH2TWe?o~%_q3y{?5A",
+        "parent": "DVA~P169OFM{;$8]!^j)",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "2.5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "qbHH2TWe?o~%_q3y{?5A": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "IsdU/m[J*K1WB?TP1[`4",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              ">:("
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 3,
+    "costumes": [
+      {
+        "assetId": "fe98df7367e314d9640bfaa54fc239be",
+        "name": "butterfly1-a",
+        "bitmapResolution": 1,
+        "md5ext": "fe98df7367e314d9640bfaa54fc239be.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 65,
+        "rotationCenterY": 49
+      },
+      {
+        "assetId": "49c9f952007d870a046cff93b6e5e098",
+        "name": "butterfly1-b",
+        "bitmapResolution": 1,
+        "md5ext": "49c9f952007d870a046cff93b6e5e098.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 65,
+        "rotationCenterY": 49
+      },
+      {
+        "assetId": "0429fb501527c31b12e1846e5514605e",
+        "name": "butterfly1-c",
+        "bitmapResolution": 1,
+        "md5ext": "0429fb501527c31b12e1846e5514605e.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 46.000107597479115,
+        "rotationCenterY": 49.00003956782359
+      },
+      {
+        "assetId": "464e9467e931964ce35b9d164d1efd27",
+        "name": "butterfly1-c2",
+        "bitmapResolution": 1,
+        "md5ext": "464e9467e931964ce35b9d164d1efd27.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 46.000107597479115,
+        "rotationCenterY": 49.00003956782359
+      }
+    ],
+    "sounds": [
+      {
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "name": "pop",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1123,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 2,
+    "visible": true,
+    "x": 105,
+    "y": 24,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Sprite1",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "3[uo|Dy;2`7W]Cd4sK4S": {
+        "opcode": "looks_show",
+        "next": null,
+        "parent": "h(rwf_LvCdnyT03bL4]Z",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "h(rwf_LvCdnyT03bL4]Z": {
+        "opcode": "event_whenflagclicked",
+        "next": "3[uo|Dy;2`7W]Cd4sK4S",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 367,
+        "y": 245
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "assetId": "1ff8e66fdc9f2309cd5ed8cf5bb463d7",
+        "name": "costume1",
+        "bitmapResolution": 1,
+        "md5ext": "1ff8e66fdc9f2309cd5ed8cf5bb463d7.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 74.49999999999991,
+        "rotationCenterY": 145.69999694824224
+      }
+    ],
+    "sounds": [
+      {
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "name": "pop",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1123,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 1,
+    "visible": true,
+    "x": 121,
+    "y": -87,
+    "size": 90,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Butterfly 2",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "}t.hsPSm*1X]~sTxTXdj": {
+        "opcode": "event_whenflagclicked",
+        "next": "8h)O)_~SFh;:kjmK[p)=",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 340,
+        "y": 402
+      },
+      "8h)O)_~SFh;:kjmK[p)=": {
+        "opcode": "looks_hide",
+        "next": "dup!`Jv9j~ZX}-nKy4U`",
+        "parent": "}t.hsPSm*1X]~sTxTXdj",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "dup!`Jv9j~ZX}-nKy4U`": {
+        "opcode": "control_wait",
+        "next": "T9!^lsGJF^lJsF?5VI)$",
+        "parent": "8h)O)_~SFh;:kjmK[p)=",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "3.5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "T9!^lsGJF^lJsF?5VI)$": {
+        "opcode": "motion_gotoxy",
+        "next": "Q*=u4y!O0n]fNJ5nF1^U",
+        "parent": "dup!`Jv9j~ZX}-nKy4U`",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "204"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "93"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Q*=u4y!O0n]fNJ5nF1^U": {
+        "opcode": "looks_show",
+        "next": "YBvGU?nw*kA[1ucqrW,9",
+        "parent": "T9!^lsGJF^lJsF?5VI)$",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "YBvGU?nw*kA[1ucqrW,9": {
+        "opcode": "looks_sayforsecs",
+        "next": "24S;zaY.=bW/8h26#G%9",
+        "parent": "Q*=u4y!O0n]fNJ5nF1^U",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Hey ini bungaku bukan bungamu!"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "24S;zaY.=bW/8h26#G%9": {
+        "opcode": "control_wait",
+        "next": "*g{3zB7C38OnBr:[6W|H",
+        "parent": "YBvGU?nw*kA[1ucqrW,9",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "3.5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "*g{3zB7C38OnBr:[6W|H": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "24S;zaY.=bW/8h26#G%9",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              ">:("
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "assetId": "45094eeada154e4ff48ee61b4cd35767",
+        "name": "butterfly2-a",
+        "bitmapResolution": 1,
+        "md5ext": "45094eeada154e4ff48ee61b4cd35767.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 63.00003958553444,
+        "rotationCenterY": 45.96504653611183
+      },
+      {
+        "assetId": "e96f4c6913107c9b790d37bb65507c14",
+        "name": "butterfly2-b",
+        "bitmapResolution": 1,
+        "md5ext": "e96f4c6913107c9b790d37bb65507c14.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 75,
+        "rotationCenterY": 75
+      }
+    ],
+    "sounds": [
+      {
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "name": "pop",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1123,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 3,
+    "visible": true,
+    "x": 204,
+    "y": 93,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  }
+]

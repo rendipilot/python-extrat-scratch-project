@@ -1,0 +1,1467 @@
+[
+  {
+    "isStage": true,
+    "name": "Stage",
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "my variable",
+        0
+      ]
+    },
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 1,
+    "costumes": [
+      {
+        "name": "backdrop1",
+        "dataFormat": "svg",
+        "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+        "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "name": "WhatsApp Image 2022-08-02 at 16",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "6116bc93ba431ec892cd3a913e97d2ef",
+        "md5ext": "6116bc93ba431ec892cd3a913e97d2ef.png",
+        "rotationCenterX": 320,
+        "rotationCenterY": 360
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 0,
+    "tempo": 60,
+    "videoTransparency": 50,
+    "videoState": "on",
+    "textToSpeechLanguage": null
+  },
+  {
+    "isStage": false,
+    "name": "IMG_20220806_205904_159-removebg-preview",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "!|:!GdYWVIJW(N?ldm,3": {
+        "opcode": "event_whenflagclicked",
+        "next": "y1-+X_UgO18[mrs/y}Wc",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 52,
+        "y": -6
+      },
+      "y1-+X_UgO18[mrs/y}Wc": {
+        "opcode": "looks_sayforsecs",
+        "next": "fxEo!d~D$M8wy$ya7285",
+        "parent": "!|:!GdYWVIJW(N?ldm,3",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Selamat datang di peta buta kota Tulungagung"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "4"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "fxEo!d~D$M8wy$ya7285": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "y1-+X_UgO18[mrs/y}Wc",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Arahkan pointer untuk melihat nama kabupaten yang ada di kota tulungagung !"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "4"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "IMG_20220806_205904_159-removebg-preview",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "e62aa3d269cb3636bcc29211fc0ba533",
+        "md5ext": "e62aa3d269cb3636bcc29211fc0ba533.png",
+        "rotationCenterX": 129,
+        "rotationCenterY": 250
+      }
+    ],
+    "sounds": [],
+    "volume": 100,
+    "layerOrder": 1,
+    "visible": true,
+    "x": -167,
+    "y": -77,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Ball",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "@KQw7s6KXTAZ+l%cyX]Z": {
+        "opcode": "event_whenflagclicked",
+        "next": "-Zqm_.:3Uqk1kxpP%%6i",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 73,
+        "y": -3
+      },
+      "-Zqm_.:3Uqk1kxpP%%6i": {
+        "opcode": "looks_seteffectto",
+        "next": "NT-[)h$YA-3H!kX:))[,",
+        "parent": "@KQw7s6KXTAZ+l%cyX]Z",
+        "inputs": {
+          "VALUE": [
+            1,
+            [
+              4,
+              "100"
+            ]
+          ]
+        },
+        "fields": {
+          "EFFECT": [
+            "GHOST",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": false
+      },
+      "NT-[)h$YA-3H!kX:))[,": {
+        "opcode": "looks_show",
+        "next": "gQJ0eOD+NBHQ+eMK]|#A",
+        "parent": "-Zqm_.:3Uqk1kxpP%%6i",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "gQJ0eOD+NBHQ+eMK]|#A": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "NT-[)h$YA-3H!kX:))[,",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "VH|6esbHN0co/G10[mLx"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "VH|6esbHN0co/G10[mLx": {
+        "opcode": "motion_goto",
+        "next": "PJw?hMj$9h=;tqKweAUq",
+        "parent": "gQJ0eOD+NBHQ+eMK]|#A",
+        "inputs": {
+          "TO": [
+            1,
+            "+ym:${s??:=$U{)$6B,{"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "+ym:${s??:=$U{)$6B,{": {
+        "opcode": "motion_goto_menu",
+        "next": null,
+        "parent": "VH|6esbHN0co/G10[mLx",
+        "inputs": {},
+        "fields": {
+          "TO": [
+            "_mouse_",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "PJw?hMj$9h=;tqKweAUq": {
+        "opcode": "control_if",
+        "next": "Tc=On0yu=h@QTx032dB$",
+        "parent": "VH|6esbHN0co/G10[mLx",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "y[xB]jX+1{A}z~YfySlw"
+          ],
+          "SUBSTACK": [
+            2,
+            "$}LUWUit0o!W.ki|%i8n"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "y[xB]jX+1{A}z~YfySlw": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "PJw?hMj$9h=;tqKweAUq",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#e4412e"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "$}LUWUit0o!W.ki|%i8n": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "PJw?hMj$9h=;tqKweAUq",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Sendang !"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Tc=On0yu=h@QTx032dB$": {
+        "opcode": "control_if",
+        "next": "29e86,odtUlCcjhh)#(a",
+        "parent": "PJw?hMj$9h=;tqKweAUq",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "O0]-]62@z~Y{yFQQX9AR"
+          ],
+          "SUBSTACK": [
+            2,
+            "_H:`;,)99HHFyMa}5BdM"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "O0]-]62@z~Y{yFQQX9AR": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "Tc=On0yu=h@QTx032dB$",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#ffda1f"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "_H:`;,)99HHFyMa}5BdM": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "Tc=On0yu=h@QTx032dB$",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Pagerwojo"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "29e86,odtUlCcjhh)#(a": {
+        "opcode": "control_if",
+        "next": "=2N),l#^1.iQkPy}vdtY",
+        "parent": "Tc=On0yu=h@QTx032dB$",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "0?n,Y{F;_AB-P~2F%oGi"
+          ],
+          "SUBSTACK": [
+            2,
+            "Jv/4gdb_1ZE+5_4VKrVs"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "0?n,Y{F;_AB-P~2F%oGi": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "29e86,odtUlCcjhh)#(a",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#f0802e"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Jv/4gdb_1ZE+5_4VKrVs": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "29e86,odtUlCcjhh)#(a",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Karangrejo"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "=2N),l#^1.iQkPy}vdtY": {
+        "opcode": "control_if",
+        "next": "J^pY2vn,PE+T{Qd`lEEF",
+        "parent": "29e86,odtUlCcjhh)#(a",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "+WV:_?SJ[5Ri?eK8Y:RT"
+          ],
+          "SUBSTACK": [
+            2,
+            ".0poY=Sf1sv.A6w:3k~["
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "+WV:_?SJ[5Ri?eK8Y:RT": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "=2N),l#^1.iQkPy}vdtY",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#ab4d82"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ".0poY=Sf1sv.A6w:3k~[": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "=2N),l#^1.iQkPy}vdtY",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Kauman"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "J^pY2vn,PE+T{Qd`lEEF": {
+        "opcode": "control_if",
+        "next": "[{pQJq#Yrp9$`[#R5svI",
+        "parent": "=2N),l#^1.iQkPy}vdtY",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "1$Aa!5}JniauJk,1_0J-"
+          ],
+          "SUBSTACK": [
+            2,
+            "a|5rGz|p%;RrG`F41wm."
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "1$Aa!5}JniauJk,1_0J-": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "J^pY2vn,PE+T{Qd`lEEF",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#7485b9"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "a|5rGz|p%;RrG`F41wm.": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "J^pY2vn,PE+T{Qd`lEEF",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Gondang"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "[{pQJq#Yrp9$`[#R5svI": {
+        "opcode": "control_if",
+        "next": "wNyY5UOU@H.Wio(edAYJ",
+        "parent": "J^pY2vn,PE+T{Qd`lEEF",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "b$1~6aH=?latv28=KBgT"
+          ],
+          "SUBSTACK": [
+            2,
+            ":p32eZ[r1B%5?!y{@i/)"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "b$1~6aH=?latv28=KBgT": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "[{pQJq#Yrp9$`[#R5svI",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#2d2624"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ":p32eZ[r1B%5?!y{@i/)": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "[{pQJq#Yrp9$`[#R5svI",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Kedungwaru"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "wNyY5UOU@H.Wio(edAYJ": {
+        "opcode": "control_if",
+        "next": "-8@a~#k)`zF`1`5;):qM",
+        "parent": "[{pQJq#Yrp9$`[#R5svI",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "ae@yR3!S.)2-QR!~iU{~"
+          ],
+          "SUBSTACK": [
+            2,
+            ",`caq@neWOnk$3{yBrW_"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "ae@yR3!S.)2-QR!~iU{~": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "wNyY5UOU@H.Wio(edAYJ",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#0394c0"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ",`caq@neWOnk$3{yBrW_": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "wNyY5UOU@H.Wio(edAYJ",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Ngantru"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "-8@a~#k)`zF`1`5;):qM": {
+        "opcode": "control_if",
+        "next": "H[ZRe^j!zqoQ$IjTPXsr",
+        "parent": "wNyY5UOU@H.Wio(edAYJ",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "c(]B|8^hW:uatWgtilPW"
+          ],
+          "SUBSTACK": [
+            2,
+            "z.N0Y53;Dgtj723Fur7?"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "c(]B|8^hW:uatWgtilPW": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "-8@a~#k)`zF`1`5;):qM",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#a1d0bc"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "z.N0Y53;Dgtj723Fur7?": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "-8@a~#k)`zF`1`5;):qM",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Tulungagung"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "H[ZRe^j!zqoQ$IjTPXsr": {
+        "opcode": "control_if",
+        "next": "W?E%M8i.uJL*`3Id4eRU",
+        "parent": "-8@a~#k)`zF`1`5;):qM",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "1N?F8Y1JmtrGHK7*GAE?"
+          ],
+          "SUBSTACK": [
+            2,
+            "DHhr-XunRyoEavfQT0lM"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "1N?F8Y1JmtrGHK7*GAE?": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "H[ZRe^j!zqoQ$IjTPXsr",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#556283"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "DHhr-XunRyoEavfQT0lM": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "H[ZRe^j!zqoQ$IjTPXsr",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Boyolangu"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "W?E%M8i.uJL*`3Id4eRU": {
+        "opcode": "control_if",
+        "next": "(yJq/mSuJ`zqC$Vul^bl",
+        "parent": "H[ZRe^j!zqoQ$IjTPXsr",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "+fuuQr3$wbx9)[^O0]]/"
+          ],
+          "SUBSTACK": [
+            2,
+            "y3tJA,fsJpqWx4`o[756"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "+fuuQr3$wbx9)[^O0]]/": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "W?E%M8i.uJL*`3Id4eRU",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#9b699c"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "y3tJA,fsJpqWx4`o[756": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "W?E%M8i.uJL*`3Id4eRU",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Sumbergempol"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "(yJq/mSuJ`zqC$Vul^bl": {
+        "opcode": "control_if",
+        "next": "-G5YMP}aoo@m_IBzB{/{",
+        "parent": "W?E%M8i.uJL*`3Id4eRU",
+        "inputs": {
+          "CONDITION": [
+            2,
+            ";w}BRJ7*C=GG~V~^$[MO"
+          ],
+          "SUBSTACK": [
+            2,
+            "yY$/j!{^w[y?~p=;.?QU"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ";w}BRJ7*C=GG~V~^$[MO": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "(yJq/mSuJ`zqC$Vul^bl",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#03944f"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "yY$/j!{^w[y?~p=;.?QU": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "(yJq/mSuJ`zqC$Vul^bl",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Ngunut"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "-G5YMP}aoo@m_IBzB{/{": {
+        "opcode": "control_if",
+        "next": "{npV-(0eq9qv|g`M||%v",
+        "parent": "(yJq/mSuJ`zqC$Vul^bl",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "pF|npHJsP[|emD/9kE-6"
+          ],
+          "SUBSTACK": [
+            2,
+            "!:48hwwxzoF(9B;V:pN;"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "pF|npHJsP[|emD/9kE-6": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "-G5YMP}aoo@m_IBzB{/{",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#f3a7a9"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "!:48hwwxzoF(9B;V:pN;": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "-G5YMP}aoo@m_IBzB{/{",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Rejotangan"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "{npV-(0eq9qv|g`M||%v": {
+        "opcode": "control_if",
+        "next": "8o~?G@W_iStTH3RmIppg",
+        "parent": "-G5YMP}aoo@m_IBzB{/{",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "4Q5IFWpaJW-u{`n2WB{R"
+          ],
+          "SUBSTACK": [
+            2,
+            "WB#^t}Uhlr9C#XzWJ_eo"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "4Q5IFWpaJW-u{`n2WB{R": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "{npV-(0eq9qv|g`M||%v",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#f3a26a"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "WB#^t}Uhlr9C#XzWJ_eo": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "{npV-(0eq9qv|g`M||%v",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Pakel"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "8o~?G@W_iStTH3RmIppg": {
+        "opcode": "control_if",
+        "next": "EE~NFlq15+ACL9HMhM%|",
+        "parent": "{npV-(0eq9qv|g`M||%v",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "m:J3Eb09EU!@.MtFLvQf"
+          ],
+          "SUBSTACK": [
+            2,
+            "2M?xMUO0_Bm}e?+-|nm6"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "m:J3Eb09EU!@.MtFLvQf": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "8o~?G@W_iStTH3RmIppg",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#a45c44"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "2M?xMUO0_Bm}e?+-|nm6": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "8o~?G@W_iStTH3RmIppg",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Bandung"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "EE~NFlq15+ACL9HMhM%|": {
+        "opcode": "control_if",
+        "next": "Ub`xhgMU`1#j{U4%){F|",
+        "parent": "8o~?G@W_iStTH3RmIppg",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "+wHTfXOu#R4p2y/z(6$2"
+          ],
+          "SUBSTACK": [
+            2,
+            "aLU1wl?+pywmWcC)n*7."
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "+wHTfXOu#R4p2y/z(6$2": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "EE~NFlq15+ACL9HMhM%|",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#fef3d5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "aLU1wl?+pywmWcC)n*7.": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "EE~NFlq15+ACL9HMhM%|",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Campurdarat"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Ub`xhgMU`1#j{U4%){F|": {
+        "opcode": "control_if",
+        "next": "#6Vi}=(M(2qw/BCA/Cs;",
+        "parent": "EE~NFlq15+ACL9HMhM%|",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "NEUW2)t;!F7sHgZ}(Ovf"
+          ],
+          "SUBSTACK": [
+            2,
+            "8CAGCBJ.5!L3AqUoei;4"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "NEUW2)t;!F7sHgZ}(Ovf": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "Ub`xhgMU`1#j{U4%){F|",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#3e3972"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "8CAGCBJ.5!L3AqUoei;4": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "Ub`xhgMU`1#j{U4%){F|",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Kalidawir"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "#6Vi}=(M(2qw/BCA/Cs;": {
+        "opcode": "control_if",
+        "next": "iZT0U!F@KZB+E`.hQC`l",
+        "parent": "Ub`xhgMU`1#j{U4%){F|",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "HLIu}CuKPDHe)mSkxEAt"
+          ],
+          "SUBSTACK": [
+            2,
+            "h)#x*ZHry%1@9aBU^9,t"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "HLIu}CuKPDHe)mSkxEAt": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "#6Vi}=(M(2qw/BCA/Cs;",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#cec4dd"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "h)#x*ZHry%1@9aBU^9,t": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "#6Vi}=(M(2qw/BCA/Cs;",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Pucanglaban"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "iZT0U!F@KZB+E`.hQC`l": {
+        "opcode": "control_if",
+        "next": "[+3.3C^T}9FX:@u7#t.j",
+        "parent": "#6Vi}=(M(2qw/BCA/Cs;",
+        "inputs": {
+          "CONDITION": [
+            2,
+            ",;$.6i`%8EC6`A4knY1d"
+          ],
+          "SUBSTACK": [
+            2,
+            "rp{Hg3_@he8mQrZre(^i"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ",;$.6i`%8EC6`A4knY1d": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "iZT0U!F@KZB+E`.hQC`l",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#e75d6c"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "rp{Hg3_@he8mQrZre(^i": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "iZT0U!F@KZB+E`.hQC`l",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Tanggunggunung"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "[+3.3C^T}9FX:@u7#t.j": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "iZT0U!F@KZB+E`.hQC`l",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "??6GnqO-Q!:MaQhuw%v!"
+          ],
+          "SUBSTACK": [
+            2,
+            "Dl{R;}|7yjM}wth7Kba."
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "??6GnqO-Q!:MaQhuw%v!": {
+        "opcode": "sensing_touchingcolor",
+        "next": null,
+        "parent": "[+3.3C^T}9FX:@u7#t.j",
+        "inputs": {
+          "COLOR": [
+            1,
+            [
+              9,
+              "#836f64"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Dl{R;}|7yjM}wth7Kba.": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "[+3.3C^T}9FX:@u7#t.j",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ini Kabupaten Besuki"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "ball-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "3c6241985b581284ec191f9d1deffde8",
+        "md5ext": "3c6241985b581284ec191f9d1deffde8.svg",
+        "rotationCenterX": 22,
+        "rotationCenterY": 22
+      },
+      {
+        "name": "ball-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "ad7dc51cafd73e8279073e33b0eab335",
+        "md5ext": "ad7dc51cafd73e8279073e33b0eab335.svg",
+        "rotationCenterX": 22,
+        "rotationCenterY": 22
+      },
+      {
+        "name": "ball-c",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "f221a2edf87aff3615c0c003e616b31b",
+        "md5ext": "f221a2edf87aff3615c0c003e616b31b.svg",
+        "rotationCenterX": 22,
+        "rotationCenterY": 22
+      },
+      {
+        "name": "ball-d",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "db144b2a19f4f1ab31e30d58f00447dc",
+        "md5ext": "db144b2a19f4f1ab31e30d58f00447dc.svg",
+        "rotationCenterX": 22,
+        "rotationCenterY": 22
+      },
+      {
+        "name": "ball-e",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "1c44b7494dec047371f74c705f1d99fc",
+        "md5ext": "1c44b7494dec047371f74c705f1d99fc.svg",
+        "rotationCenterX": 22,
+        "rotationCenterY": 22
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Boing",
+        "assetId": "53a3c2e27d1fb5fdb14aaf0cb41e7889",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 7113,
+        "md5ext": "53a3c2e27d1fb5fdb14aaf0cb41e7889.wav"
+      },
+      {
+        "name": "Pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 2,
+    "visible": true,
+    "x": -240,
+    "y": 141,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "WhatsApp_Image_2022-08-08_at_14",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "WhatsApp_Image_2022-08-08_at_14",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "83a349e6f780b56e645c1d5692f22322",
+        "md5ext": "83a349e6f780b56e645c1d5692f22322.png",
+        "rotationCenterX": 237,
+        "rotationCenterY": 24
+      }
+    ],
+    "sounds": [],
+    "volume": 100,
+    "layerOrder": 3,
+    "visible": true,
+    "x": 108,
+    "y": 158,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  }
+]

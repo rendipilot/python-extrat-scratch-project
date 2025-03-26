@@ -1,0 +1,390 @@
+[
+  {
+    "isStage": true,
+    "name": "Stage",
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "my variable",
+        0
+      ]
+    },
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 1,
+    "costumes": [
+      {
+        "name": "backdrop1",
+        "dataFormat": "svg",
+        "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+        "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "name": "Theater",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "c2b097bc5cdb6a14ef5485202bc5ee76",
+        "md5ext": "c2b097bc5cdb6a14ef5485202bc5ee76.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 0,
+    "tempo": 60,
+    "videoTransparency": 50,
+    "videoState": "on",
+    "textToSpeechLanguage": null
+  },
+  {
+    "isStage": false,
+    "name": "Witch",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "uS~^u[|%W+,-$;8zo/Mp": {
+        "opcode": "event_whenflagclicked",
+        "next": "XaLh^EK~5R8_%;#p?L(0",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 20,
+        "y": 118
+      },
+      "XaLh^EK~5R8_%;#p?L(0": {
+        "opcode": "motion_gotoxy",
+        "next": "0N@4i0K{]CfE:V?QiK^!",
+        "parent": "uS~^u[|%W+,-$;8zo/Mp",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "-126"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "11"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "0N@4i0K{]CfE:V?QiK^!": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "RH^`V$9,0c9?D:busVgX",
+        "parent": "XaLh^EK~5R8_%;#p?L(0",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "-82"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "RH^`V$9,0c9?D:busVgX": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "0N@4i0K{]CfE:V?QiK^!",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Kamu datang darimana?"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 1,
+    "costumes": [
+      {
+        "name": "witch-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "44cbaf358d2d8e66815e447c25a4b72e",
+        "md5ext": "44cbaf358d2d8e66815e447c25a4b72e.svg",
+        "rotationCenterX": 65,
+        "rotationCenterY": 140
+      },
+      {
+        "name": "witch-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "b10fb75f426397e10c878fda19d92009",
+        "md5ext": "b10fb75f426397e10c878fda19d92009.svg",
+        "rotationCenterX": 65,
+        "rotationCenterY": 140
+      },
+      {
+        "name": "witch-c",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "668c9dc76ba6a07bebabf5aed4623566",
+        "md5ext": "668c9dc76ba6a07bebabf5aed4623566.svg",
+        "rotationCenterX": 65,
+        "rotationCenterY": 140
+      },
+      {
+        "name": "witch-d",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "a7e48fc790511fbd46b30b1cdcdc98fc",
+        "md5ext": "a7e48fc790511fbd46b30b1cdcdc98fc.svg",
+        "rotationCenterX": 65,
+        "rotationCenterY": 140
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Magic Spell",
+        "assetId": "1cb60ecdb1075c8769cb346d5c2a22c7",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 43689,
+        "md5ext": "1cb60ecdb1075c8769cb346d5c2a22c7.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 1,
+    "visible": true,
+    "x": -82,
+    "y": -3,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Giga Walking",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "rp).}-Tzf%zC!Gs0]^2}": {
+        "opcode": "event_whenflagclicked",
+        "next": "j=Ml_C0UWsH%XUulO=h^",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 66,
+        "y": 122
+      },
+      "j=Ml_C0UWsH%XUulO=h^": {
+        "opcode": "motion_gotoxy",
+        "next": "bkt{+/Tl+_%T8kS6EZj6",
+        "parent": "rp).}-Tzf%zC!Gs0]^2}",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "159"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-85"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "bkt{+/Tl+_%T8kS6EZj6": {
+        "opcode": "motion_glidesecstoxy",
+        "next": null,
+        "parent": "j=Ml_C0UWsH%XUulO=h^",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "58"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-92"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "jWV9{vCKpb@NAer_2=9a": {
+        "opcode": "event_whenflagclicked",
+        "next": "@b[CyU}#0a(Wqqow*.#t",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 57,
+        "y": 359
+      },
+      "@b[CyU}#0a(Wqqow*.#t": {
+        "opcode": "control_wait",
+        "next": "*NmdZ2u2~FWMM/I]F[Bf",
+        "parent": "jWV9{vCKpb@NAer_2=9a",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "*NmdZ2u2~FWMM/I]F[Bf": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "@b[CyU}#0a(Wqqow*.#t",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Aku datang dari negeri dongeng"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 2,
+    "costumes": [
+      {
+        "name": "Giga walk1",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "3afad833094d8dff1c4ff79edcaa13d0",
+        "md5ext": "3afad833094d8dff1c4ff79edcaa13d0.svg",
+        "rotationCenterX": 70,
+        "rotationCenterY": 107
+      },
+      {
+        "name": "Giga walk2",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "d27716e022fb5f747d7b09fe6eeeca06",
+        "md5ext": "d27716e022fb5f747d7b09fe6eeeca06.svg",
+        "rotationCenterX": 71,
+        "rotationCenterY": 107
+      },
+      {
+        "name": "Giga walk3",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "7fcf445d11a3ca9d396e670862e263c7",
+        "md5ext": "7fcf445d11a3ca9d396e670862e263c7.svg",
+        "rotationCenterX": 70.10525636548991,
+        "rotationCenterY": 106.39725636548997
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 2,
+    "visible": true,
+    "x": 58,
+    "y": -92,
+    "size": 80,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  }
+]

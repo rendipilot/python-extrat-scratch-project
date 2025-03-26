@@ -1,0 +1,954 @@
+[
+  {
+    "isStage": true,
+    "name": "Stage",
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "variabel saya",
+        0
+      ]
+    },
+    "lists": {},
+    "broadcasts": {
+      "yUA:(.}fyN-0?di:#v|w": "BOLA KE GAWANG",
+      "#1[W}OmD8HBOxA-1BhBq": "BOLA DI LAWAN",
+      "dn@Uu3N43FPVx-f:e:_c": "LAWAN MARAH",
+      "[YP8Bl(F/iyyL(7b36Dp": "GOAL LAWAN"
+    },
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 1,
+    "costumes": [
+      {
+        "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+        "name": "latar 1",
+        "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "assetId": "b0dc1268cb595aaeef405bce40d1639c",
+        "name": "Soccer 2",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      }
+    ],
+    "sounds": [
+      {
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "name": "pop",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1123,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 0,
+    "tempo": 60,
+    "videoTransparency": 50,
+    "videoState": "on",
+    "textToSpeechLanguage": null
+  },
+  {
+    "isStage": false,
+    "name": "Ben",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "CZLU/2)@s{sl1HuDk{Cu": {
+        "opcode": "event_whenflagclicked",
+        "next": "cqjAPRCt67=H{@[I?Eiv",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 227,
+        "y": 58
+      },
+      "cqjAPRCt67=H{@[I?Eiv": {
+        "opcode": "sound_play",
+        "next": "(^/9tm-Nbe_(DN?:r,U+",
+        "parent": "CZLU/2)@s{sl1HuDk{Cu",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "zks`d=WaTXn3;w8L]=WI"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "zks`d=WaTXn3;w8L]=WI": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": "cqjAPRCt67=H{@[I?Eiv",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "Referee Whistle",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "I0?NNHk:%)N#.VuX.e4+": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "pa9IlwU/Q=;4vW^thnyI",
+        "parent": "(^/9tm-Nbe_(DN?:r,U+",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-85"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "pa9IlwU/Q=;4vW^thnyI": {
+        "opcode": "looks_switchcostumeto",
+        "next": "X.UmfF9hga@Wza#:L[ix",
+        "parent": "I0?NNHk:%)N#.VuX.e4+",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "7(?MDuQ;LwG3Hn!?g6t0"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "7(?MDuQ;LwG3Hn!?g6t0": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "pa9IlwU/Q=;4vW^thnyI",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "ben-b",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "X.UmfF9hga@Wza#:L[ix": {
+        "opcode": "looks_sayforsecs",
+        "next": "sVSb.1[Upk5;*ESn(tYC",
+        "parent": "pa9IlwU/Q=;4vW^thnyI",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "GOAL!"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "sVSb.1[Upk5;*ESn(tYC": {
+        "opcode": "event_broadcast",
+        "next": null,
+        "parent": "X.UmfF9hga@Wza#:L[ix",
+        "inputs": {
+          "BROADCAST_INPUT": [
+            1,
+            [
+              11,
+              "BOLA KE GAWANG",
+              "yUA:(.}fyN-0?di:#v|w"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "(^/9tm-Nbe_(DN?:r,U+": {
+        "opcode": "motion_gotoxy",
+        "next": "I0?NNHk:%)N#.VuX.e4+",
+        "parent": "cqjAPRCt67=H{@[I?Eiv",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "-179"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-65"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 1,
+    "costumes": [
+      {
+        "assetId": "2cd77b8a9961e7ad4da905e7731b7c1b",
+        "name": "ben-a",
+        "bitmapResolution": 1,
+        "md5ext": "2cd77b8a9961e7ad4da905e7731b7c1b.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 54,
+        "rotationCenterY": 69
+      },
+      {
+        "assetId": "165d993c30dfdb9e829d0d98867d7826",
+        "name": "ben-b",
+        "bitmapResolution": 1,
+        "md5ext": "165d993c30dfdb9e829d0d98867d7826.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 54,
+        "rotationCenterY": 69
+      },
+      {
+        "assetId": "9f9f88aea3457084d8d734040b0b9067",
+        "name": "ben-c",
+        "bitmapResolution": 1,
+        "md5ext": "9f9f88aea3457084d8d734040b0b9067.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 73,
+        "rotationCenterY": 71
+      },
+      {
+        "assetId": "acc208e29f0422c2bcffa3b8873abc63",
+        "name": "ben-d",
+        "bitmapResolution": 1,
+        "md5ext": "acc208e29f0422c2bcffa3b8873abc63.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 44,
+        "rotationCenterY": 71
+      }
+    ],
+    "sounds": [
+      {
+        "assetId": "a434069c58e79d42f5d21abb1c318919",
+        "name": "Goal Cheer",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 84329,
+        "md5ext": "a434069c58e79d42f5d21abb1c318919.wav"
+      },
+      {
+        "assetId": "8468b9b3f11a665ee4d215afd8463b97",
+        "name": "Referee Whistle",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 14225,
+        "md5ext": "8468b9b3f11a665ee4d215afd8463b97.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 1,
+    "visible": true,
+    "x": 1,
+    "y": -85,
+    "size": 50,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Jordyn",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      ")fTMJx74duR{NTV];BE`": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "E[%ml0xp}MCeo(6~z[}w",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "BOLA DI LAWAN",
+            "#1[W}OmD8HBOxA-1BhBq"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 176,
+        "y": 148
+      },
+      "E[%ml0xp}MCeo(6~z[}w": {
+        "opcode": "looks_switchcostumeto",
+        "next": "=S`KSZ*]YiRgIsU+e}Je",
+        "parent": ")fTMJx74duR{NTV];BE`",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "*OG[,;-/QX%h`#ix]Skc"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "*OG[,;-/QX%h`#ix]Skc": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "E[%ml0xp}MCeo(6~z[}w",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "jordyn-b",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "=S`KSZ*]YiRgIsU+e}Je": {
+        "opcode": "looks_sayforsecs",
+        "next": "kGQF*EDjWa/NuG+,yBgI",
+        "parent": "E[%ml0xp}MCeo(6~z[}w",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "AH ITEM KAMU"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "kGQF*EDjWa/NuG+,yBgI": {
+        "opcode": "event_broadcast",
+        "next": null,
+        "parent": "=S`KSZ*]YiRgIsU+e}Je",
+        "inputs": {
+          "BROADCAST_INPUT": [
+            1,
+            [
+              11,
+              "LAWAN MARAH",
+              "dn@Uu3N43FPVx-f:e:_c"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "]vZ*|YdgK=ht;x|v~h[^": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": ";s:05X%$szA`lb[6iBy9",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "GOAL LAWAN",
+            "[YP8Bl(F/iyyL(7b36Dp"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 127,
+        "y": 416
+      },
+      ";s:05X%$szA`lb[6iBy9": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "F)%Oc;PAL@6,LHL|;|?r",
+        "parent": "]vZ*|YdgK=ht;x|v~h[^",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "-166"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "F)%Oc;PAL@6,LHL|;|?r": {
+        "opcode": "looks_switchcostumeto",
+        "next": "SYad6!0GMCe*YPLC[$6x",
+        "parent": ";s:05X%$szA`lb[6iBy9",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "z7MC%h/AYa/Q8~?bdmp`"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "z7MC%h/AYa/Q8~?bdmp`": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "F)%Oc;PAL@6,LHL|;|?r",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "jordyn-c",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "SYad6!0GMCe*YPLC[$6x": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "P?R5~#.(*$Yb)~$50mdn",
+        "parent": "F)%Oc;PAL@6,LHL|;|?r",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "-169"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "29"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "P?R5~#.(*$Yb)~$50mdn": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "NFspjg,/q7`EAWHda|Pi",
+        "parent": "SYad6!0GMCe*YPLC[$6x",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "-161"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "8"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "NFspjg,/q7`EAWHda|Pi": {
+        "opcode": "looks_switchcostumeto",
+        "next": ",Wul=c8I[ks@6F*,)/c8",
+        "parent": "P?R5~#.(*$Yb)~$50mdn",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "C:tRA_lQ1c*[-X#MM`B)"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "C:tRA_lQ1c*[-X#MM`B)": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "NFspjg,/q7`EAWHda|Pi",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "jordyn-d",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "*[9tOUeeaKRN~(WZ*e:|": {
+        "opcode": "event_whenflagclicked",
+        "next": "*gRF`GU|xx_$*kkr+MXu",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 36,
+        "y": 32
+      },
+      "*gRF`GU|xx_$*kkr+MXu": {
+        "opcode": "motion_gotoxy",
+        "next": null,
+        "parent": "*[9tOUeeaKRN~(WZ*e:|",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "187"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-67"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ",Wul=c8I[ks@6F*,)/c8": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "NFspjg,/q7`EAWHda|Pi",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "SUUUUIIIIII!!!"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 3,
+    "costumes": [
+      {
+        "assetId": "736df06c42015a01d34dd1c537eef8a9",
+        "name": "jordyn-a",
+        "bitmapResolution": 1,
+        "md5ext": "736df06c42015a01d34dd1c537eef8a9.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 50.52887711331701,
+        "rotationCenterY": 61.5532801179923
+      },
+      {
+        "assetId": "b2e668c37d7ad4b69f35f64837cbf2b6",
+        "name": "jordyn-b",
+        "bitmapResolution": 1,
+        "md5ext": "b2e668c37d7ad4b69f35f64837cbf2b6.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 50.52887711331701,
+        "rotationCenterY": 62.553280117992315
+      },
+      {
+        "assetId": "768c4601174f0dfcb96b3080ccc3a192",
+        "name": "jordyn-c",
+        "bitmapResolution": 1,
+        "md5ext": "768c4601174f0dfcb96b3080ccc3a192.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 68,
+        "rotationCenterY": 62
+      },
+      {
+        "assetId": "00c8c464c19460df693f8d5ae69afdab",
+        "name": "jordyn-d",
+        "bitmapResolution": 1,
+        "md5ext": "00c8c464c19460df693f8d5ae69afdab.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 40,
+        "rotationCenterY": 62
+      }
+    ],
+    "sounds": [
+      {
+        "assetId": "199b30c8b4fe0642e849924bd1e1b463",
+        "name": "Goal Cheer",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 84329,
+        "md5ext": "199b30c8b4fe0642e849924bd1e1b463.wav"
+      },
+      {
+        "assetId": "7d91d95d841dc6cf1282914306a4674a",
+        "name": "Referee Whistle",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 14225,
+        "md5ext": "7d91d95d841dc6cf1282914306a4674a.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 3,
+    "visible": true,
+    "x": -161,
+    "y": 8,
+    "size": 50,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Soccer Ball",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "wBTh1x~T3ST-GBV7_x#n": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "3XuEz_$IS90+LxP#2f4W",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "BOLA KE GAWANG",
+            "yUA:(.}fyN-0?di:#v|w"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 154,
+        "y": 107
+      },
+      "O:YS#sk@ICZIcw_RrK,y": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "HC*As3Jp+1*v6B058`,H",
+        "parent": "3XuEz_$IS90+LxP#2f4W",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "186"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-56"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "HC*As3Jp+1*v6B058`,H": {
+        "opcode": "event_broadcast",
+        "next": null,
+        "parent": "O:YS#sk@ICZIcw_RrK,y",
+        "inputs": {
+          "BROADCAST_INPUT": [
+            1,
+            [
+              11,
+              "BOLA DI LAWAN",
+              "#1[W}OmD8HBOxA-1BhBq"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "V@GYxelIntmR%u)(S;/;": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "VqLX$H6a^Jogd)QPE3n3",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "LAWAN MARAH",
+            "dn@Uu3N43FPVx-f:e:_c"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 204,
+        "y": 364
+      },
+      "VqLX$H6a^Jogd)QPE3n3": {
+        "opcode": "motion_glidesecstoxy",
+        "next": ".#dx)ZyK[s(GAS@NJ^?=",
+        "parent": "V@GYxelIntmR%u)(S;/;",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "-225"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-67"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ".#dx)ZyK[s(GAS@NJ^?=": {
+        "opcode": "sound_play",
+        "next": "Nk/HVm!ckpaK^Hx9CLSn",
+        "parent": "VqLX$H6a^Jogd)QPE3n3",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "+]s7v{)?q(akkUm5C!hN"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "+]s7v{)?q(akkUm5C!hN": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": ".#dx)ZyK[s(GAS@NJ^?=",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "Goal Cheer",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "3XuEz_$IS90+LxP#2f4W": {
+        "opcode": "motion_gotoxy",
+        "next": "O:YS#sk@ICZIcw_RrK,y",
+        "parent": "wBTh1x~T3ST-GBV7_x#n",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "-5"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-91"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Qw1hjebexD%7)G77aRNv": {
+        "opcode": "event_whenflagclicked",
+        "next": "?lSU@I7e.AsVT0K^+u9b",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 201,
+        "y": -73
+      },
+      "?lSU@I7e.AsVT0K^+u9b": {
+        "opcode": "motion_gotoxy",
+        "next": null,
+        "parent": "Qw1hjebexD%7)G77aRNv",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-85"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Nk/HVm!ckpaK^Hx9CLSn": {
+        "opcode": "event_broadcast",
+        "next": null,
+        "parent": ".#dx)ZyK[s(GAS@NJ^?=",
+        "inputs": {
+          "BROADCAST_INPUT": [
+            1,
+            [
+              11,
+              "GOAL LAWAN",
+              "[YP8Bl(F/iyyL(7b36Dp"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "assetId": "5d973d7a3a8be3f3bd6e1cd0f73c32b5",
+        "name": "soccer ball",
+        "bitmapResolution": 1,
+        "md5ext": "5d973d7a3a8be3f3bd6e1cd0f73c32b5.svg",
+        "dataFormat": "svg",
+        "rotationCenterX": 23,
+        "rotationCenterY": 22
+      }
+    ],
+    "sounds": [
+      {
+        "assetId": "1727f65b5f22d151685b8e5917456a60",
+        "name": "basketball bounce",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 8129,
+        "md5ext": "1727f65b5f22d151685b8e5917456a60.wav"
+      },
+      {
+        "assetId": "a434069c58e79d42f5d21abb1c318919",
+        "name": "Goal Cheer",
+        "dataFormat": "wav",
+        "rate": 22050,
+        "sampleCount": 84329,
+        "md5ext": "a434069c58e79d42f5d21abb1c318919.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 2,
+    "visible": true,
+    "x": -225,
+    "y": -67,
+    "size": 50,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  }
+]

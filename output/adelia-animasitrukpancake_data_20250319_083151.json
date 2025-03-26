@@ -1,0 +1,219 @@
+[
+  {
+    "isStage": true,
+    "name": "Stage",
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "variabel saya",
+        0
+      ]
+    },
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 5,
+    "costumes": [
+      {
+        "name": "latar 1",
+        "dataFormat": "svg",
+        "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+        "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "name": "Space City 1",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "20344b0edcc498281e4cb80242a72667",
+        "md5ext": "20344b0edcc498281e4cb80242a72667.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      },
+      {
+        "name": "Theater",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "c2b097bc5cdb6a14ef5485202bc5ee76",
+        "md5ext": "c2b097bc5cdb6a14ef5485202bc5ee76.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      },
+      {
+        "name": "Bedroom 1",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "7aa6bbb2ddc4c10f901e1a50aeac1c7e",
+        "md5ext": "7aa6bbb2ddc4c10f901e1a50aeac1c7e.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      },
+      {
+        "name": "Space",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "84208d9a3718ec3c9fc5a32a792fa1d0",
+        "md5ext": "84208d9a3718ec3c9fc5a32a792fa1d0.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      },
+      {
+        "name": "Colorful City",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "04d18ddd1b85f0ea30beb14b8da49f60",
+        "md5ext": "04d18ddd1b85f0ea30beb14b8da49f60.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 0,
+    "tempo": 60,
+    "videoTransparency": 50,
+    "videoState": "on",
+    "textToSpeechLanguage": null
+  },
+  {
+    "isStage": false,
+    "name": "Food Truck",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "Td(Gow_=!C{|H1HDWea)": {
+        "opcode": "event_whenflagclicked",
+        "next": "ud6=IfTl(a{r,3*NReGg",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 204,
+        "y": 164
+      },
+      "ud6=IfTl(a{r,3*NReGg": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "Td(Gow_=!C{|H1HDWea)",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "(PW|7!:6=G-1=RhT2pKX"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "(PW|7!:6=G-1=RhT2pKX": {
+        "opcode": "motion_movesteps",
+        "next": "i573J+ah;-%,vUh{c{59",
+        "parent": "ud6=IfTl(a{r,3*NReGg",
+        "inputs": {
+          "STEPS": [
+            1,
+            [
+              4,
+              "30"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "i573J+ah;-%,vUh{c{59": {
+        "opcode": "sound_playuntildone",
+        "next": null,
+        "parent": "(PW|7!:6=G-1=RhT2pKX",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "0^MBN@v{Fe@z4J^8dFoH"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "0^MBN@v{Fe@z4J^8dFoH": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": "i573J+ah;-%,vUh{c{59",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "clown honk",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "Food Truck-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "a77f9693f87288d023a4632cf019776e",
+        "md5ext": "a77f9693f87288d023a4632cf019776e.svg",
+        "rotationCenterX": 120.82215422900005,
+        "rotationCenterY": 123.2192
+      },
+      {
+        "name": "Food Truck-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "f4150de2297a63c3efd125c8e12dd7cc",
+        "md5ext": "f4150de2297a63c3efd125c8e12dd7cc.svg",
+        "rotationCenterX": 120.82199999999996,
+        "rotationCenterY": 100.675
+      },
+      {
+        "name": "Food Truck-c",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "e850e3c93de767519f7f78b38f16ed1d",
+        "md5ext": "e850e3c93de767519f7f78b38f16ed1d.svg",
+        "rotationCenterX": 120.82199999999996,
+        "rotationCenterY": 91.45043052455627
+      }
+    ],
+    "sounds": [
+      {
+        "name": "clown honk",
+        "assetId": "ec66961f188e9b8a9c75771db744d096",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 9145,
+        "md5ext": "ec66961f188e9b8a9c75771db744d096.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 1,
+    "visible": true,
+    "x": -26,
+    "y": -72,
+    "size": 50,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  }
+]

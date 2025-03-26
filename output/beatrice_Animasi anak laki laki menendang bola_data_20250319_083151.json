@@ -1,0 +1,645 @@
+[
+  {
+    "isStage": true,
+    "name": "Stage",
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "variabel saya",
+        0
+      ]
+    },
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 1,
+    "costumes": [
+      {
+        "name": "latar 1",
+        "dataFormat": "svg",
+        "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+        "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "name": "Soccer 2",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "b0dc1268cb595aaeef405bce40d1639c",
+        "md5ext": "b0dc1268cb595aaeef405bce40d1639c.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 0,
+    "tempo": 60,
+    "videoTransparency": 50,
+    "videoState": "on",
+    "textToSpeechLanguage": null
+  },
+  {
+    "isStage": false,
+    "name": "Ben",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "ksSLU)A+5C_ky|#*($6Y": {
+        "opcode": "event_whenthisspriteclicked",
+        "next": "O}DpsWrc7RrXE@|#*u,C",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": -407,
+        "y": -815
+      },
+      "O}DpsWrc7RrXE@|#*u,C": {
+        "opcode": "looks_switchcostumeto",
+        "next": "0+po8O`KNA](_A#i?Yd-",
+        "parent": "ksSLU)A+5C_ky|#*($6Y",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "E*kR8U}+g8aiM/h*u1/g"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "E*kR8U}+g8aiM/h*u1/g": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "O}DpsWrc7RrXE@|#*u,C",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "ben-a",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "0+po8O`KNA](_A#i?Yd-": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "pVTlmtw2j^CskDXZK*pK",
+        "parent": "O}DpsWrc7RrXE@|#*u,C",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "0.25"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "-128"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-47"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "pVTlmtw2j^CskDXZK*pK": {
+        "opcode": "looks_switchcostumeto",
+        "next": "At{XD`{m(5pI[KNS9=:i",
+        "parent": "0+po8O`KNA](_A#i?Yd-",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "aBu!qFS}MX@W_^=;$14w"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "aBu!qFS}MX@W_^=;$14w": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "pVTlmtw2j^CskDXZK*pK",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "ben-b",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "At{XD`{m(5pI[KNS9=:i": {
+        "opcode": "sound_playuntildone",
+        "next": "[Aw^MnE.LAV4[iA[SSS*",
+        "parent": "pVTlmtw2j^CskDXZK*pK",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "Id+ix#J6k|mrkc[1?viu"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Id+ix#J6k|mrkc[1?viu": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": "At{XD`{m(5pI[KNS9=:i",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "Tennis Hit",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "[Aw^MnE.LAV4[iA[SSS*": {
+        "opcode": "control_wait",
+        "next": "NZs*QeP4spB/P;(K4pQn",
+        "parent": "At{XD`{m(5pI[KNS9=:i",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "0.25"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "NZs*QeP4spB/P;(K4pQn": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "E{BFU=Q3zer5Yh7fS!PB",
+        "parent": "[Aw^MnE.LAV4[iA[SSS*",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "0.25"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "-156"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-50"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "E{BFU=Q3zer5Yh7fS!PB": {
+        "opcode": "looks_switchcostumeto",
+        "next": null,
+        "parent": "NZs*QeP4spB/P;(K4pQn",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "/9^.S..@(YhL$g`oy^*H"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "/9^.S..@(YhL$g`oy^*H": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "E{BFU=Q3zer5Yh7fS!PB",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "ben-d",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 3,
+    "costumes": [
+      {
+        "name": "ben-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "2cd77b8a9961e7ad4da905e7731b7c1b",
+        "md5ext": "2cd77b8a9961e7ad4da905e7731b7c1b.svg",
+        "rotationCenterX": 54,
+        "rotationCenterY": 69
+      },
+      {
+        "name": "ben-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "165d993c30dfdb9e829d0d98867d7826",
+        "md5ext": "165d993c30dfdb9e829d0d98867d7826.svg",
+        "rotationCenterX": 54,
+        "rotationCenterY": 69
+      },
+      {
+        "name": "ben-c",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "9f9f88aea3457084d8d734040b0b9067",
+        "md5ext": "9f9f88aea3457084d8d734040b0b9067.svg",
+        "rotationCenterX": 73,
+        "rotationCenterY": 71
+      },
+      {
+        "name": "ben-d",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "acc208e29f0422c2bcffa3b8873abc63",
+        "md5ext": "acc208e29f0422c2bcffa3b8873abc63.svg",
+        "rotationCenterX": 44,
+        "rotationCenterY": 71
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Goal Cheer",
+        "assetId": "a434069c58e79d42f5d21abb1c318919",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 84329,
+        "md5ext": "a434069c58e79d42f5d21abb1c318919.wav"
+      },
+      {
+        "name": "Tennis Hit",
+        "assetId": "01bd4d670cd586613705ee8273f22568",
+        "dataFormat": "wav",
+        "rate": 22050,
+        "sampleCount": 18289,
+        "md5ext": "01bd4d670cd586613705ee8273f22568.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 1,
+    "visible": true,
+    "x": -156,
+    "y": -50,
+    "size": 70,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Soccer Ball",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "vAoq7d+t^B/HU(qF%:Mk": {
+        "opcode": "event_whenflagclicked",
+        "next": "N}L]+E@C%PoIGv+$A:y_",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": -179,
+        "y": -574
+      },
+      "N}L]+E@C%PoIGv+$A:y_": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "vAoq7d+t^B/HU(qF%:Mk",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "{CZjHUb_8GX1W.7NY$,2"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "{CZjHUb_8GX1W.7NY$,2": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "*ja{fb$40O3[UdD[9y_c",
+        "parent": "N}L]+E@C%PoIGv+$A:y_",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "0.25"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "-102"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-72"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "*ja{fb$40O3[UdD[9y_c": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "{CZjHUb_8GX1W.7NY$,2",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "w.m7QI.jDL+YdeGPtzf|"
+          ],
+          "SUBSTACK": [
+            2,
+            "Nb)p*N0dETi?E(HCoQs^"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "w.m7QI.jDL+YdeGPtzf|": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": "*ja{fb$40O3[UdD[9y_c",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "xEfQV)B0-G0AQ7/B3j@}"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "xEfQV)B0-G0AQ7/B3j@}": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "w.m7QI.jDL+YdeGPtzf|",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "Ben",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "Nb)p*N0dETi?E(HCoQs^": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "mq?hGQK)Vy[AKPis_^~W",
+        "parent": "*ja{fb$40O3[UdD[9y_c",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "0.25"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "-26"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-42"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "mq?hGQK)Vy[AKPis_^~W": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "+Jp/tNK@`5IU%Hu02)PE",
+        "parent": "Nb)p*N0dETi?E(HCoQs^",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "0.25"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "57"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-38"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "+Jp/tNK@`5IU%Hu02)PE": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "::k7@}b.,5~HY8cJQubS",
+        "parent": "mq?hGQK)Vy[AKPis_^~W",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "0.25"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "168"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-78"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "::k7@}b.,5~HY8cJQubS": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "JFj8Q?3QsukN{{J.UhE{",
+        "parent": "+Jp/tNK@`5IU%Hu02)PE",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "0.25"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "206"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-69"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "JFj8Q?3QsukN{{J.UhE{": {
+        "opcode": "sound_playuntildone",
+        "next": "LH#8Fzlnu/enFHiHaf?c",
+        "parent": "::k7@}b.,5~HY8cJQubS",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "Sx%J2MvBTGU~z~/r#b0r"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Sx%J2MvBTGU~z~/r#b0r": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": "JFj8Q?3QsukN{{J.UhE{",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "Cheer",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "LH#8Fzlnu/enFHiHaf?c": {
+        "opcode": "control_wait",
+        "next": null,
+        "parent": "JFj8Q?3QsukN{{J.UhE{",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "0.5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "soccer ball",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "5d973d7a3a8be3f3bd6e1cd0f73c32b5",
+        "md5ext": "5d973d7a3a8be3f3bd6e1cd0f73c32b5.svg",
+        "rotationCenterX": 23,
+        "rotationCenterY": 22
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Cheer",
+        "assetId": "b7e1432896976252fe58e1050ac3f742",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 238866,
+        "md5ext": "b7e1432896976252fe58e1050ac3f742.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 2,
+    "visible": true,
+    "x": -102,
+    "y": -72,
+    "size": 60,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  }
+]

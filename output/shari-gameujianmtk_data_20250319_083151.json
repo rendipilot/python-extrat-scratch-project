@@ -1,0 +1,1483 @@
+[
+  {
+    "isStage": true,
+    "name": "Stage",
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "my variable",
+        0
+      ]
+    },
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 2,
+    "costumes": [
+      {
+        "name": "backdrop1",
+        "dataFormat": "svg",
+        "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+        "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "name": "Colorful City",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "81e9552f9f308a5e079642a3a7b73005",
+        "md5ext": "81e9552f9f308a5e079642a3a7b73005.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      },
+      {
+        "name": "Desert",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "be2e807f29c05b51a7a6a9b514f7fad3",
+        "md5ext": "be2e807f29c05b51a7a6a9b514f7fad3.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 0,
+    "tempo": 60,
+    "videoTransparency": 50,
+    "videoState": "on",
+    "textToSpeechLanguage": null
+  },
+  {
+    "isStage": false,
+    "name": "Avery Walking",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "+[zllNS8BQ(WeD[@pFUg": {
+        "opcode": "event_whenflagclicked",
+        "next": "Sc@?;4qKmvO%Cs+Rb|wg",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 32,
+        "y": -823
+      },
+      "Sc@?;4qKmvO%Cs+Rb|wg": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "+[zllNS8BQ(WeD[@pFUg",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "7IR,%-=CRh9])N|kZD@0"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "7IR,%-=CRh9])N|kZD@0": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "Sc@?;4qKmvO%Cs+Rb|wg",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "l6L~Judf`A$Dq_47eAZ7"
+          ],
+          "SUBSTACK": [
+            2,
+            "A$c4x2w7sxl,6*]6?UFg"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "l6L~Judf`A$Dq_47eAZ7": {
+        "opcode": "sensing_keypressed",
+        "next": null,
+        "parent": "7IR,%-=CRh9])N|kZD@0",
+        "inputs": {
+          "KEY_OPTION": [
+            1,
+            "G*#{9OV,VYFw}R9Jsuc)"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "G*#{9OV,VYFw}R9Jsuc)": {
+        "opcode": "sensing_keyoptions",
+        "next": null,
+        "parent": "l6L~Judf`A$Dq_47eAZ7",
+        "inputs": {},
+        "fields": {
+          "KEY_OPTION": [
+            "right arrow",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "A$c4x2w7sxl,6*]6?UFg": {
+        "opcode": "motion_movesteps",
+        "next": "BQW4Hl4|6DALj?iA@$sf",
+        "parent": "7IR,%-=CRh9])N|kZD@0",
+        "inputs": {
+          "STEPS": [
+            1,
+            [
+              4,
+              "10"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "BQW4Hl4|6DALj?iA@$sf": {
+        "opcode": "looks_nextcostume",
+        "next": null,
+        "parent": "A$c4x2w7sxl,6*]6?UFg",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "zz8BT%E1J@q-!OoN.LWL": {
+        "opcode": "event_whenflagclicked",
+        "next": "8`N!Y;l0n=*I)pu7[5U^",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 443,
+        "y": -817
+      },
+      "8`N!Y;l0n=*I)pu7[5U^": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "zz8BT%E1J@q-!OoN.LWL",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "K}YK~AlpsfG4k?~!h12`"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "K}YK~AlpsfG4k?~!h12`": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "8`N!Y;l0n=*I)pu7[5U^",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "#H@#^T($QJDa[ifE[`uu"
+          ],
+          "SUBSTACK": [
+            2,
+            "GT_elO|3^Q#N8hz8G(99"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "#H@#^T($QJDa[ifE[`uu": {
+        "opcode": "sensing_keypressed",
+        "next": null,
+        "parent": "K}YK~AlpsfG4k?~!h12`",
+        "inputs": {
+          "KEY_OPTION": [
+            1,
+            "YPSR^98S2j*v-C+KRkO4"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "YPSR^98S2j*v-C+KRkO4": {
+        "opcode": "sensing_keyoptions",
+        "next": null,
+        "parent": "#H@#^T($QJDa[ifE[`uu",
+        "inputs": {},
+        "fields": {
+          "KEY_OPTION": [
+            "left arrow",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "GT_elO|3^Q#N8hz8G(99": {
+        "opcode": "motion_movesteps",
+        "next": "?ArlgJZy,-X}T)qoi1:T",
+        "parent": "K}YK~AlpsfG4k?~!h12`",
+        "inputs": {
+          "STEPS": [
+            1,
+            [
+              4,
+              "-10"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "?ArlgJZy,-X}T)qoi1:T": {
+        "opcode": "looks_nextcostume",
+        "next": null,
+        "parent": "GT_elO|3^Q#N8hz8G(99",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "#Q-75cW5H90Gz)rX8M1a": {
+        "opcode": "event_whenflagclicked",
+        "next": "h7tca}WvqSIr.n%D02;3",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 40,
+        "y": -450
+      },
+      "h7tca}WvqSIr.n%D02;3": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "#Q-75cW5H90Gz)rX8M1a",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "pAo@W).XqqF)y6u)*,9~"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "pAo@W).XqqF)y6u)*,9~": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "h7tca}WvqSIr.n%D02;3",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "o-GB_Y?/SeqBU.lilikC"
+          ],
+          "SUBSTACK": [
+            2,
+            "QXlxZG@~f[-0P!-h3xKJ"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "o-GB_Y?/SeqBU.lilikC": {
+        "opcode": "sensing_keypressed",
+        "next": null,
+        "parent": "pAo@W).XqqF)y6u)*,9~",
+        "inputs": {
+          "KEY_OPTION": [
+            1,
+            "T4C:3M);!rka^HCfc}q]"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "T4C:3M);!rka^HCfc}q]": {
+        "opcode": "sensing_keyoptions",
+        "next": null,
+        "parent": "o-GB_Y?/SeqBU.lilikC",
+        "inputs": {},
+        "fields": {
+          "KEY_OPTION": [
+            "up arrow",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "QXlxZG@~f[-0P!-h3xKJ": {
+        "opcode": "motion_changeyby",
+        "next": "!x%RJMFnZDBT}#Z,McdM",
+        "parent": "pAo@W).XqqF)y6u)*,9~",
+        "inputs": {
+          "DY": [
+            1,
+            [
+              4,
+              "5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "!x%RJMFnZDBT}#Z,McdM": {
+        "opcode": "looks_nextcostume",
+        "next": null,
+        "parent": "QXlxZG@~f[-0P!-h3xKJ",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "@5O.8c+Bq(}xZWF8^Hz3": {
+        "opcode": "event_whenflagclicked",
+        "next": "1d,#6-[3wuI$BwKeZvlb",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 442,
+        "y": -447
+      },
+      "1d,#6-[3wuI$BwKeZvlb": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "@5O.8c+Bq(}xZWF8^Hz3",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "j/@(,Bu7XiRq,~G^lQcR"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "j/@(,Bu7XiRq,~G^lQcR": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "1d,#6-[3wuI$BwKeZvlb",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "4-{9tABlJe)[6}w3tLg2"
+          ],
+          "SUBSTACK": [
+            2,
+            "|F,QM^d`gqLci%xZnId5"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "4-{9tABlJe)[6}w3tLg2": {
+        "opcode": "sensing_keypressed",
+        "next": null,
+        "parent": "j/@(,Bu7XiRq,~G^lQcR",
+        "inputs": {
+          "KEY_OPTION": [
+            1,
+            "/X.cx%tTN:.G?,o~YMd`"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "/X.cx%tTN:.G?,o~YMd`": {
+        "opcode": "sensing_keyoptions",
+        "next": null,
+        "parent": "4-{9tABlJe)[6}w3tLg2",
+        "inputs": {},
+        "fields": {
+          "KEY_OPTION": [
+            "down arrow",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "|F,QM^d`gqLci%xZnId5": {
+        "opcode": "motion_changeyby",
+        "next": "p},LdH?_v;-fqg1qn0@y",
+        "parent": "j/@(,Bu7XiRq,~G^lQcR",
+        "inputs": {
+          "DY": [
+            1,
+            [
+              4,
+              "-5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "p},LdH?_v;-fqg1qn0@y": {
+        "opcode": "looks_nextcostume",
+        "next": null,
+        "parent": "|F,QM^d`gqLci%xZnId5",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "`f}$8Kh13Gr{ZIp{76x~": {
+        "opcode": "event_whenflagclicked",
+        "next": "eC=%Z-W_Da4ZFZeQ4Jwg",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 42,
+        "y": -90
+      },
+      "eC=%Z-W_Da4ZFZeQ4Jwg": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "`f}$8Kh13Gr{ZIp{76x~",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "_PJJ^Z6~r/NgVXz2h1*-"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "_PJJ^Z6~r/NgVXz2h1*-": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "eC=%Z-W_Da4ZFZeQ4Jwg",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "E83butvaM_[P_*BTz.11"
+          ],
+          "SUBSTACK": [
+            2,
+            "+~le@+J]0uBuk4x3g4kD"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "E83butvaM_[P_*BTz.11": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": "_PJJ^Z6~r/NgVXz2h1*-",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "6O=~Kfkb9gACV(OKIZz)"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "6O=~Kfkb9gACV(OKIZz)": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "E83butvaM_[P_*BTz.11",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "Benar",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "+~le@+J]0uBuk4x3g4kD": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "_PJJ^Z6~r/NgVXz2h1*-",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Jawaban Benar"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "uYrshf}-KT^aHK/jxU;,": {
+        "opcode": "event_whenflagclicked",
+        "next": "8{TP.oO?2[inct!{Y3BW",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 435,
+        "y": -90
+      },
+      "8{TP.oO?2[inct!{Y3BW": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "uYrshf}-KT^aHK/jxU;,",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "/S[/{u]o#)i64pr~w)#)"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "/S[/{u]o#)i64pr~w)#)": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "8{TP.oO?2[inct!{Y3BW",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "3xrL*PvQ,ykrgp1rPo.8"
+          ],
+          "SUBSTACK": [
+            2,
+            "rt2;ecIaMd3BcKl4i[+v"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "3xrL*PvQ,ykrgp1rPo.8": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": "/S[/{u]o#)i64pr~w)#)",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "ZWUu(|REr|o=bw+P^zS~"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "ZWUu(|REr|o=bw+P^zS~": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "3xrL*PvQ,ykrgp1rPo.8",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "Salah",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "rt2;ecIaMd3BcKl4i[+v": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "/S[/{u]o#)i64pr~w)#)",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Jawaban Salah"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "-5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "U,!W4U44k{6p8jG/KhPo": {
+        "opcode": "event_whenflagclicked",
+        "next": "@G$_XS5!*YMQ~dJZ,lRb",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 50,
+        "y": 215
+      },
+      "@G$_XS5!*YMQ~dJZ,lRb": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "U,!W4U44k{6p8jG/KhPo",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "yA=_[cHUSRUV{3Tn_%G5"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "yA=_[cHUSRUV{3Tn_%G5": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "@G$_XS5!*YMQ~dJZ,lRb",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "XtgP[Z(]#$[=,p~YX;ok"
+          ],
+          "SUBSTACK": [
+            2,
+            "7@E~8JRY#b~oAQjkaJ[W"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "XtgP[Z(]#$[=,p~YX;ok": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": "yA=_[cHUSRUV{3Tn_%G5",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "?RD8cC,hR/jZ)t852TZz"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "?RD8cC,hR/jZ)t852TZz": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "XtgP[Z(]#$[=,p~YX;ok",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "Benar 2",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "7@E~8JRY#b~oAQjkaJ[W": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "yA=_[cHUSRUV{3Tn_%G5",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Jawaban Benar"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "v.Cn@WIpQC8TO/t);~9#": {
+        "opcode": "event_whenflagclicked",
+        "next": "e2?wJc[sd6:lM=)z$,e_",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 436,
+        "y": 232
+      },
+      "e2?wJc[sd6:lM=)z$,e_": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "v.Cn@WIpQC8TO/t);~9#",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "RDChcYfr_#@`ZS25Tx.I"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "RDChcYfr_#@`ZS25Tx.I": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "e2?wJc[sd6:lM=)z$,e_",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "6{.W;]y[aa4IX*rLH*h+"
+          ],
+          "SUBSTACK": [
+            2,
+            "j%Bs3=bigyVPf4o^YHM2"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "6{.W;]y[aa4IX*rLH*h+": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": "RDChcYfr_#@`ZS25Tx.I",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "gd$boX[K?|f.lPpCLhmF"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "gd$boX[K?|f.lPpCLhmF": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "6{.W;]y[aa4IX*rLH*h+",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "Salah2",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "j%Bs3=bigyVPf4o^YHM2": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "RDChcYfr_#@`ZS25Tx.I",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Jawaban Salah"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 3,
+    "costumes": [
+      {
+        "name": "avery walking-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "dc6a584704c09a3fbafb9825635a9fd4",
+        "md5ext": "dc6a584704c09a3fbafb9825635a9fd4.svg",
+        "rotationCenterX": 50,
+        "rotationCenterY": 95
+      },
+      {
+        "name": "avery walking-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "448e54fb14b13d492885fc247e76b7f4",
+        "md5ext": "448e54fb14b13d492885fc247e76b7f4.svg",
+        "rotationCenterX": 50,
+        "rotationCenterY": 102
+      },
+      {
+        "name": "avery walking-c",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "3a935fe75ac999e22b93d06b3081a271",
+        "md5ext": "3a935fe75ac999e22b93d06b3081a271.svg",
+        "rotationCenterX": 48,
+        "rotationCenterY": 95
+      },
+      {
+        "name": "avery walking-d",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "8f439476a738251043d488d7a4bc6870",
+        "md5ext": "8f439476a738251043d488d7a4bc6870.svg",
+        "rotationCenterX": 50,
+        "rotationCenterY": 101
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 5,
+    "visible": true,
+    "x": -19,
+    "y": -29,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Salah",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "-BLr@B(N|D#EwE2mC5s7": {
+        "opcode": "event_whenbackdropswitchesto",
+        "next": "InbLgT-#W}I^$OWGG[O?",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BACKDROP": [
+            "Desert",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 59,
+        "y": -553
+      },
+      "InbLgT-#W}I^$OWGG[O?": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "-BLr@B(N|D#EwE2mC5s7",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "s#Vx;L%TNGa1%_UuNkT/": {
+        "opcode": "event_whenbackdropswitchesto",
+        "next": "~-xdIY;hWEc;/SWIB*-d",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BACKDROP": [
+            "Colorful City",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 56,
+        "y": -394
+      },
+      "~-xdIY;hWEc;/SWIB*-d": {
+        "opcode": "looks_show",
+        "next": null,
+        "parent": "s#Vx;L%TNGa1%_UuNkT/",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "costume1",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "87638e420d51f6c7c25c700f6400408a",
+        "md5ext": "87638e420d51f6c7c25c700f6400408a.svg",
+        "rotationCenterX": 25,
+        "rotationCenterY": 18
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 1,
+    "visible": false,
+    "x": -163,
+    "y": -2,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Benar",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "utLW}I,y~9txiFHCex.L": {
+        "opcode": "event_whenbackdropswitchesto",
+        "next": "BG(;_{WA[]36LF*d]VXt",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BACKDROP": [
+            "Desert",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 63,
+        "y": -559
+      },
+      "BG(;_{WA[]36LF*d]VXt": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "utLW}I,y~9txiFHCex.L",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "32p4]xZrSD|cWK.Y%Hg8": {
+        "opcode": "event_whenbackdropswitchesto",
+        "next": ":5WORG=Q17G!pz:,aGoW",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BACKDROP": [
+            "Colorful City",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 229,
+        "y": -442
+      },
+      ":5WORG=Q17G!pz:,aGoW": {
+        "opcode": "looks_show",
+        "next": null,
+        "parent": "32p4]xZrSD|cWK.Y%Hg8",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "costume1",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "3cb133eb2be00ff8ad0831d1612d3844",
+        "md5ext": "3cb133eb2be00ff8ad0831d1612d3844.svg",
+        "rotationCenterX": 36,
+        "rotationCenterY": 34
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 2,
+    "visible": false,
+    "x": 139,
+    "y": -28,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Arrow1",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "NUhz;=:|SdlN@v=`wP?W": {
+        "opcode": "event_whenthisspriteclicked",
+        "next": "f;FVvOikn:y%#UupP#ov",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 76,
+        "y": -315
+      },
+      "f;FVvOikn:y%#UupP#ov": {
+        "opcode": "looks_switchbackdropto",
+        "next": null,
+        "parent": "NUhz;=:|SdlN@v=`wP?W",
+        "inputs": {
+          "BACKDROP": [
+            1,
+            "yegLnmV(}4T.yJB4Zpb9"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "yegLnmV(}4T.yJB4Zpb9": {
+        "opcode": "looks_backdrops",
+        "next": null,
+        "parent": "f;FVvOikn:y%#UupP#ov",
+        "inputs": {},
+        "fields": {
+          "BACKDROP": [
+            "Desert",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "arrow1-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "be8fcd10da0b082f8d4775088ef7bd52",
+        "md5ext": "be8fcd10da0b082f8d4775088ef7bd52.svg",
+        "rotationCenterX": 28,
+        "rotationCenterY": 23
+      },
+      {
+        "name": "arrow1-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "65b8e977641885010a10a46512fb95b4",
+        "md5ext": "65b8e977641885010a10a46512fb95b4.svg",
+        "rotationCenterX": 28,
+        "rotationCenterY": 23
+      },
+      {
+        "name": "arrow1-c",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "dafcdfda65af14e172809984710f31a9",
+        "md5ext": "dafcdfda65af14e172809984710f31a9.svg",
+        "rotationCenterX": 23,
+        "rotationCenterY": 28
+      },
+      {
+        "name": "arrow1-d",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "70ffa0bae8693418459f21f370584f6d",
+        "md5ext": "70ffa0bae8693418459f21f370584f6d.svg",
+        "rotationCenterX": 23,
+        "rotationCenterY": 28
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 3,
+    "visible": true,
+    "x": 166,
+    "y": -134,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Arrow2",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "vy#c335j#q@;ptvPBv$=": {
+        "opcode": "event_whenthisspriteclicked",
+        "next": "C3rxM);%P6%(EuCw6C]q",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 113,
+        "y": -324
+      },
+      "C3rxM);%P6%(EuCw6C]q": {
+        "opcode": "looks_switchbackdropto",
+        "next": null,
+        "parent": "vy#c335j#q@;ptvPBv$=",
+        "inputs": {
+          "BACKDROP": [
+            1,
+            "V{Ml,Vm7Bf`~:?tJ%zUg"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "V{Ml,Vm7Bf`~:?tJ%zUg": {
+        "opcode": "looks_backdrops",
+        "next": null,
+        "parent": "C3rxM);%P6%(EuCw6C]q",
+        "inputs": {},
+        "fields": {
+          "BACKDROP": [
+            "Colorful City",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "arrow1-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "be8fcd10da0b082f8d4775088ef7bd52",
+        "md5ext": "be8fcd10da0b082f8d4775088ef7bd52.svg",
+        "rotationCenterX": 28,
+        "rotationCenterY": 23
+      },
+      {
+        "name": "arrow1-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "65b8e977641885010a10a46512fb95b4",
+        "md5ext": "65b8e977641885010a10a46512fb95b4.svg",
+        "rotationCenterX": 28,
+        "rotationCenterY": 23
+      },
+      {
+        "name": "arrow1-c",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "dafcdfda65af14e172809984710f31a9",
+        "md5ext": "dafcdfda65af14e172809984710f31a9.svg",
+        "rotationCenterX": 23,
+        "rotationCenterY": 28
+      },
+      {
+        "name": "arrow1-d",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "70ffa0bae8693418459f21f370584f6d",
+        "md5ext": "70ffa0bae8693418459f21f370584f6d.svg",
+        "rotationCenterX": 23,
+        "rotationCenterY": 28
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 4,
+    "visible": true,
+    "x": -164,
+    "y": -125,
+    "size": 100,
+    "direction": -89.77587545848738,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Benar 2",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "*ghe~NJXZpZ)XwyB;5hc": {
+        "opcode": "event_whenbackdropswitchesto",
+        "next": ";d;TWWULyfe~Hi^J~;R;",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BACKDROP": [
+            "Desert",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 54,
+        "y": -124
+      },
+      ";d;TWWULyfe~Hi^J~;R;": {
+        "opcode": "looks_show",
+        "next": null,
+        "parent": "*ghe~NJXZpZ)XwyB;5hc",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "BJ%wp#ik`iUZ!~3kPRsl": {
+        "opcode": "event_whenbackdropswitchesto",
+        "next": "_#9/kC]=!JNT0B[9#N$m",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BACKDROP": [
+            "Colorful City",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 89,
+        "y": 29
+      },
+      "_#9/kC]=!JNT0B[9#N$m": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "BJ%wp#ik`iUZ!~3kPRsl",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "costume1",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "1da73c959b5b2564323c3c7dae911ad3",
+        "md5ext": "1da73c959b5b2564323c3c7dae911ad3.svg",
+        "rotationCenterX": 30.5,
+        "rotationCenterY": 24.724137931034477
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 6,
+    "visible": true,
+    "x": -123,
+    "y": -15,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Salah2",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "T|2:rMYuhFRRP9-,7O-f": {
+        "opcode": "event_whenbackdropswitchesto",
+        "next": "]0?*Y~?1)gMxLmo;`,is",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BACKDROP": [
+            "Desert",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 26,
+        "y": -509
+      },
+      "=O%5F*,Op0~t;;;Z@5zg": {
+        "opcode": "event_whenbackdropswitchesto",
+        "next": "arJblukNCDbxN$+oOlR|",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BACKDROP": [
+            "Colorful City",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 158,
+        "y": -392
+      },
+      "]0?*Y~?1)gMxLmo;`,is": {
+        "opcode": "looks_show",
+        "next": null,
+        "parent": "T|2:rMYuhFRRP9-,7O-f",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "arJblukNCDbxN$+oOlR|": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "=O%5F*,Op0~t;;;Z@5zg",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "costume1",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "7430b66416bc68f5076909b1d047730b",
+        "md5ext": "7430b66416bc68f5076909b1d047730b.svg",
+        "rotationCenterX": 24.5,
+        "rotationCenterY": 25.99999999999997
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 7,
+    "visible": true,
+    "x": 131,
+    "y": -12,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  }
+]

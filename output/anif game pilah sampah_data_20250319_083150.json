@@ -1,0 +1,2634 @@
+[
+  {
+    "isStage": true,
+    "name": "Stage",
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "my variable",
+        "0"
+      ],
+      "!vNT)Ewoq*Hc#J-c|P%e": [
+        "Nilai",
+        "0"
+      ]
+    },
+    "lists": {},
+    "broadcasts": {
+      "kV9f/QqTbWJ/#$[%d@Dx": "PLAY"
+    },
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 1,
+    "costumes": [
+      {
+        "name": "backdrop1",
+        "dataFormat": "svg",
+        "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+        "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "name": "Desain tanpa judul (7)",
+        "bitmapResolution": 2,
+        "dataFormat": "jpg",
+        "assetId": "92a5903e3945ff2349561dcac497dc64",
+        "md5ext": "92a5903e3945ff2349561dcac497dc64.jpg",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 0,
+    "tempo": 60,
+    "videoTransparency": 50,
+    "videoState": "on",
+    "textToSpeechLanguage": null
+  },
+  {
+    "isStage": false,
+    "name": "Button2",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "NP}Ecj{u[xuH9|(nmUzR": {
+        "opcode": "event_whenflagclicked",
+        "next": "L/`_vu/l+b*/JfZ0+OZF",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 130,
+        "y": -1131
+      },
+      "hQ##N-R@9%hK-~JFvRWA": {
+        "opcode": "event_whenthisspriteclicked",
+        "next": "NNiKvuaO-nTy*`,$N9!E",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 129,
+        "y": -1343
+      },
+      "NNiKvuaO-nTy*`,$N9!E": {
+        "opcode": "event_broadcastandwait",
+        "next": null,
+        "parent": "hQ##N-R@9%hK-~JFvRWA",
+        "inputs": {
+          "BROADCAST_INPUT": [
+            1,
+            [
+              11,
+              "PLAY",
+              "kV9f/QqTbWJ/#$[%d@Dx"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "X|t1^CQbbm~CdCwR+@6J": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "L/`_vu/l+b*/JfZ0+OZF",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "eUD$lN)dF_Ojl61$HsJ-"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "`By0.G^[dHttpbU_5s}U": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": "eUD$lN)dF_Ojl61$HsJ-",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "0.3IP$B.C%aM9_EZnxJA"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "0.3IP$B.C%aM9_EZnxJA": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "`By0.G^[dHttpbU_5s}U",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "_mouse_",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "eUD$lN)dF_Ojl61$HsJ-": {
+        "opcode": "control_if_else",
+        "next": null,
+        "parent": "X|t1^CQbbm~CdCwR+@6J",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "`By0.G^[dHttpbU_5s}U"
+          ],
+          "SUBSTACK": [
+            2,
+            "dbH=L|QyR}GAwQiqXG#K"
+          ],
+          "SUBSTACK2": [
+            2,
+            "Ts]c}~cBEPdNQ@;d2dk4"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "dbH=L|QyR}GAwQiqXG#K": {
+        "opcode": "looks_switchcostumeto",
+        "next": null,
+        "parent": "eUD$lN)dF_Ojl61$HsJ-",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "VKFCfUVjw5_oJl(+%=p+"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "VKFCfUVjw5_oJl(+%=p+": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "dbH=L|QyR}GAwQiqXG#K",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "button2-b",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "Ts]c}~cBEPdNQ@;d2dk4": {
+        "opcode": "looks_switchcostumeto",
+        "next": null,
+        "parent": "eUD$lN)dF_Ojl61$HsJ-",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "v$j%ZS*wIcrPAa4uIE3*"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "v$j%ZS*wIcrPAa4uIE3*": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "Ts]c}~cBEPdNQ@;d2dk4",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "button2-a",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "L/`_vu/l+b*/JfZ0+OZF": {
+        "opcode": "looks_show",
+        "next": "X|t1^CQbbm~CdCwR+@6J",
+        "parent": "NP}Ecj{u[xuH9|(nmUzR",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "tg{k1}}bHH/f/}3=E70p": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "_Pm0}dES$=sU$A@G:qok",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "PLAY",
+            "kV9f/QqTbWJ/#$[%d@Dx"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 516,
+        "y": -1325
+      },
+      "_Pm0}dES$=sU$A@G:qok": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "tg{k1}}bHH/f/}3=E70p",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "button2-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "92c569405df63016655cafd743c2d890",
+        "md5ext": "92c569405df63016655cafd743c2d890.svg",
+        "rotationCenterX": 58.982,
+        "rotationCenterY": 29.212999999999994
+      },
+      {
+        "name": "button2-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "532f0d00269795ba81963c1cc17bbb09",
+        "md5ext": "532f0d00269795ba81963c1cc17bbb09.svg",
+        "rotationCenterX": 58.95200000000003,
+        "rotationCenterY": 29.212999999999994
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 3,
+    "visible": false,
+    "x": 0,
+    "y": 12,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Sprite1",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "WynnJJpIDC;K53yc:PQA": {
+        "opcode": "event_whenflagclicked",
+        "next": "2B)o}6QCB}JuV0LIk_Cz",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 281,
+        "y": -1035
+      },
+      "2B)o}6QCB}JuV0LIk_Cz": {
+        "opcode": "looks_show",
+        "next": null,
+        "parent": "WynnJJpIDC;K53yc:PQA",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "nLKMeq2!CagBExhHoLn}": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "jP3^8ekjrQa~07I9hVVL",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "PLAY",
+            "kV9f/QqTbWJ/#$[%d@Dx"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 532,
+        "y": -1026
+      },
+      "jP3^8ekjrQa~07I9hVVL": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "nLKMeq2!CagBExhHoLn}",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "costume1",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "6de48444a72f5a03fd34f51a5bec1dfb",
+        "md5ext": "6de48444a72f5a03fd34f51a5bec1dfb.svg",
+        "rotationCenterX": 233.87091926252435,
+        "rotationCenterY": 133.89933989137023
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 5,
+    "visible": false,
+    "x": 36,
+    "y": 28,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "TempatSampahHijau",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "XE:Oj**jpcfA%DBcV|T3": {
+        "opcode": "event_whenflagclicked",
+        "next": "vgdz^]6}cf2M.]jUIDW+",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 172,
+        "y": -6869
+      },
+      "vgdz^]6}cf2M.]jUIDW+": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "XE:Oj**jpcfA%DBcV|T3",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "foB,A=_?]+Sn-_9knGr,": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "9xZ6dL6eV_*YE@f%+V!i",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "PLAY",
+            "kV9f/QqTbWJ/#$[%d@Dx"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 362,
+        "y": -6862
+      },
+      "p+$D%/)Z:KE/K?E9)d?U": {
+        "opcode": "looks_show",
+        "next": null,
+        "parent": "9xZ6dL6eV_*YE@f%+V!i",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "9xZ6dL6eV_*YE@f%+V!i": {
+        "opcode": "control_wait",
+        "next": "p+$D%/)Z:KE/K?E9)d?U",
+        "parent": "foB,A=_?]+Sn-_9knGr,",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "TempatSampahHijau",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "cd1629b70a38c9b3ef709d92c00d50e2",
+        "md5ext": "cd1629b70a38c9b3ef709d92c00d50e2.png",
+        "rotationCenterX": 250,
+        "rotationCenterY": 230
+      }
+    ],
+    "sounds": [],
+    "volume": 100,
+    "layerOrder": 8,
+    "visible": true,
+    "x": -167,
+    "y": -93,
+    "size": 50,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "TempatSampahMerah",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "B7OTXPKAZ1G5gI2%JZT1": {
+        "opcode": "event_whenflagclicked",
+        "next": "LN2[w5%MPWl~$aIkN@=}",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 144,
+        "y": -1192
+      },
+      "LN2[w5%MPWl~$aIkN@=}": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "B7OTXPKAZ1G5gI2%JZT1",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "KKNE:Zu)4.u.@fL8lOcC": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "UB?cT.L1Y[$Zt0(`dH01",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "PLAY",
+            "kV9f/QqTbWJ/#$[%d@Dx"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 397,
+        "y": -1169
+      },
+      "@Ys.Oa(GU]WAcWtWsroY": {
+        "opcode": "looks_show",
+        "next": null,
+        "parent": "UB?cT.L1Y[$Zt0(`dH01",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "UB?cT.L1Y[$Zt0(`dH01": {
+        "opcode": "control_wait",
+        "next": "@Ys.Oa(GU]WAcWtWsroY",
+        "parent": "KKNE:Zu)4.u.@fL8lOcC",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "TempatSampahMerah",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "580e4024fa0a8cfa21cde94faf999a0e",
+        "md5ext": "580e4024fa0a8cfa21cde94faf999a0e.png",
+        "rotationCenterX": 250,
+        "rotationCenterY": 230
+      }
+    ],
+    "sounds": [],
+    "volume": 100,
+    "layerOrder": 2,
+    "visible": true,
+    "x": 165,
+    "y": -97,
+    "size": 50,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "KulitPisang",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "4HKr5bUi%Bb!!Vxt7?B:": {
+        "opcode": "event_whenthisspriteclicked",
+        "next": "Dhs=E/WC28?|JuRHL5K~",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 673,
+        "y": -2592
+      },
+      "Dhs=E/WC28?|JuRHL5K~": {
+        "opcode": "sensing_setdragmode",
+        "next": null,
+        "parent": "4HKr5bUi%Bb!!Vxt7?B:",
+        "inputs": {},
+        "fields": {
+          "DRAG_MODE": [
+            "draggable",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": false
+      },
+      "ZoA^17}K}~$Q.W`VJ_s~": {
+        "opcode": "looks_show",
+        "next": "#9cX`IVi#HVWrv5T-lth",
+        "parent": "=7xQ5GryF~|$j5c{Llo1",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "#9cX`IVi#HVWrv5T-lth": {
+        "opcode": "motion_setx",
+        "next": "o~*UWO*/Ca(fDj_1@br8",
+        "parent": "ZoA^17}K}~$Q.W`VJ_s~",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "70"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "o~*UWO*/Ca(fDj_1@br8": {
+        "opcode": "motion_sety",
+        "next": ",qiVu.p9l:!g}#p??|q0",
+        "parent": "#9cX`IVi#HVWrv5T-lth",
+        "inputs": {
+          "Y": [
+            1,
+            [
+              4,
+              "-120"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ",qiVu.p9l:!g}#p??|q0": {
+        "opcode": "control_repeat_until",
+        "next": null,
+        "parent": "o~*UWO*/Ca(fDj_1@br8",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "dTjcp$yiTj]:8phRw{cC"
+          ],
+          "SUBSTACK": [
+            2,
+            "H+c|,dFNDi:pt@POGF?E"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "dTjcp$yiTj]:8phRw{cC": {
+        "opcode": "operator_equals",
+        "next": null,
+        "parent": ",qiVu.p9l:!g}#p??|q0",
+        "inputs": {
+          "OPERAND1": [
+            3,
+            [
+              12,
+              "Nilai",
+              "!vNT)Ewoq*Hc#J-c|P%e"
+            ],
+            [
+              10,
+              ""
+            ]
+          ],
+          "OPERAND2": [
+            1,
+            [
+              10,
+              "30"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "H+c|,dFNDi:pt@POGF?E": {
+        "opcode": "control_if_else",
+        "next": null,
+        "parent": ",qiVu.p9l:!g}#p??|q0",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "i#daV/7Y]/Cvpmwd7Y=M"
+          ],
+          "SUBSTACK": [
+            2,
+            "d9a4QEV]vK?2{a=y*sr;"
+          ],
+          "SUBSTACK2": [
+            2,
+            ";7W96G!)dn~l$+6D5}o7"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "i#daV/7Y]/Cvpmwd7Y=M": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": "H+c|,dFNDi:pt@POGF?E",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "(.7PcG#j6c=2frtF(QCw"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "(.7PcG#j6c=2frtF(QCw": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "i#daV/7Y]/Cvpmwd7Y=M",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "TempatSampahHijau",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "d9a4QEV]vK?2{a=y*sr;": {
+        "opcode": "data_setvariableto",
+        "next": "XfbGwn5?p:Nt/80|)9PC",
+        "parent": "H+c|,dFNDi:pt@POGF?E",
+        "inputs": {
+          "VALUE": [
+            3,
+            "1c8{qCftV_5^VNpzIWVN",
+            [
+              10,
+              "0"
+            ]
+          ]
+        },
+        "fields": {
+          "VARIABLE": [
+            "Nilai",
+            "!vNT)Ewoq*Hc#J-c|P%e"
+          ]
+        },
+        "shadow": false,
+        "topLevel": false
+      },
+      "1c8{qCftV_5^VNpzIWVN": {
+        "opcode": "operator_add",
+        "next": null,
+        "parent": "d9a4QEV]vK?2{a=y*sr;",
+        "inputs": {
+          "NUM1": [
+            3,
+            [
+              12,
+              "Nilai",
+              "!vNT)Ewoq*Hc#J-c|P%e"
+            ],
+            [
+              4,
+              ""
+            ]
+          ],
+          "NUM2": [
+            1,
+            [
+              4,
+              "10"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "XfbGwn5?p:Nt/80|)9PC": {
+        "opcode": "looks_hide",
+        "next": "_0PFiz8o4wi`n65_D5t=",
+        "parent": "d9a4QEV]vK?2{a=y*sr;",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "_0PFiz8o4wi`n65_D5t=": {
+        "opcode": "sound_playuntildone",
+        "next": null,
+        "parent": "XfbGwn5?p:Nt/80|)9PC",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "8PHKwu^w#}U2Eo2eSCM4"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "8PHKwu^w#}U2Eo2eSCM4": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": "_0PFiz8o4wi`n65_D5t=",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "notif sampah",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      ";7W96G!)dn~l$+6D5}o7": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "H+c|,dFNDi:pt@POGF?E",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "#M,1E8mJj!ce9G-c$!Cw"
+          ],
+          "SUBSTACK": [
+            2,
+            "+ihWLeGF1s!JX~CXdjip"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "#M,1E8mJj!ce9G-c$!Cw": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": ";7W96G!)dn~l$+6D5}o7",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "6G(^[FS*bsDh=oT/{GI*"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "6G(^[FS*bsDh=oT/{GI*": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "#M,1E8mJj!ce9G-c$!Cw",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "TempatSampahMerah",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "+ihWLeGF1s!JX~CXdjip": {
+        "opcode": "sound_play",
+        "next": "?F0k49NPrti?!G6UFy+C",
+        "parent": ";7W96G!)dn~l$+6D5}o7",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "(q_aS0c+n)yJEfLsp.;]"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "(q_aS0c+n)yJEfLsp.;]": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": "+ihWLeGF1s!JX~CXdjip",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "salah",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "?F0k49NPrti?!G6UFy+C": {
+        "opcode": "looks_sayforsecs",
+        "next": "O/MI[yjY#e?{jr0Z,Ajm",
+        "parent": "+ihWLeGF1s!JX~CXdjip",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Salah! Silahkan coba lagi"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "O/MI[yjY#e?{jr0Z,Ajm": {
+        "opcode": "motion_setx",
+        "next": "H}jOqqTU8|yJxoAay8q9",
+        "parent": "?F0k49NPrti?!G6UFy+C",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "70"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "H}jOqqTU8|yJxoAay8q9": {
+        "opcode": "motion_sety",
+        "next": null,
+        "parent": "O/MI[yjY#e?{jr0Z,Ajm",
+        "inputs": {
+          "Y": [
+            1,
+            [
+              4,
+              "-120"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "|plHL;B/r,LOz5=p1|6!": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "=7xQ5GryF~|$j5c{Llo1",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "PLAY",
+            "kV9f/QqTbWJ/#$[%d@Dx"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 92,
+        "y": -2345
+      },
+      "=7xQ5GryF~|$j5c{Llo1": {
+        "opcode": "control_wait",
+        "next": "ZoA^17}K}~$Q.W`VJ_s~",
+        "parent": "|plHL;B/r,LOz5=p1|6!",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "]%wXSx[lHi-Q0q1-:fRo": {
+        "opcode": "event_whenflagclicked",
+        "next": "bYg*jTc?4V+OlSo|KV))",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 92,
+        "y": -2564
+      },
+      "bYg*jTc?4V+OlSo|KV))": {
+        "opcode": "data_setvariableto",
+        "next": "),_^QR.)JGOZF(/^)poQ",
+        "parent": "]%wXSx[lHi-Q0q1-:fRo",
+        "inputs": {
+          "VALUE": [
+            1,
+            [
+              10,
+              "0"
+            ]
+          ]
+        },
+        "fields": {
+          "VARIABLE": [
+            "Nilai",
+            "!vNT)Ewoq*Hc#J-c|P%e"
+          ]
+        },
+        "shadow": false,
+        "topLevel": false
+      },
+      "),_^QR.)JGOZF(/^)poQ": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "bYg*jTc?4V+OlSo|KV))",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "KulitPisang",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "b1d9c620e990f55469cec8166bed8bb1",
+        "md5ext": "b1d9c620e990f55469cec8166bed8bb1.png",
+        "rotationCenterX": 274,
+        "rotationCenterY": 174
+      }
+    ],
+    "sounds": [
+      {
+        "name": "notif sampah",
+        "assetId": "aa2279401f029fc2cbc5716ae64ec7e0",
+        "dataFormat": "mp3",
+        "rate": 48000,
+        "sampleCount": 35712,
+        "md5ext": "aa2279401f029fc2cbc5716ae64ec7e0.mp3"
+      },
+      {
+        "name": "salah",
+        "assetId": "96153f59607f3d8922a0b7c99c18f2d6",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 46399,
+        "md5ext": "96153f59607f3d8922a0b7c99c18f2d6.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 11,
+    "visible": true,
+    "x": 70,
+    "y": -120,
+    "size": 30,
+    "direction": 90,
+    "draggable": true,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Milk",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "N0}jHL|t41Mu,IN4IsYG": {
+        "opcode": "event_whenthisspriteclicked",
+        "next": "3-U-l5(K#@t,.#4iW-8,",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 802,
+        "y": -900
+      },
+      "3-U-l5(K#@t,.#4iW-8,": {
+        "opcode": "sensing_setdragmode",
+        "next": null,
+        "parent": "N0}jHL|t41Mu,IN4IsYG",
+        "inputs": {},
+        "fields": {
+          "DRAG_MODE": [
+            "draggable",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": false
+      },
+      "ZoA^17}K}~$Q.W`VJ_s~": {
+        "opcode": "looks_show",
+        "next": null,
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 344,
+        "y": -748
+      },
+      "#9cX`IVi#HVWrv5T-lth": {
+        "opcode": "motion_setx",
+        "next": "o~*UWO*/Ca(fDj_1@br8",
+        "parent": null,
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "-5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 194,
+        "y": -614
+      },
+      "o~*UWO*/Ca(fDj_1@br8": {
+        "opcode": "motion_sety",
+        "next": ",qiVu.p9l:!g}#p??|q0",
+        "parent": "#9cX`IVi#HVWrv5T-lth",
+        "inputs": {
+          "Y": [
+            1,
+            [
+              4,
+              "-120"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ",qiVu.p9l:!g}#p??|q0": {
+        "opcode": "control_repeat_until",
+        "next": null,
+        "parent": "o~*UWO*/Ca(fDj_1@br8",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "dTjcp$yiTj]:8phRw{cC"
+          ],
+          "SUBSTACK": [
+            1,
+            null
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "dTjcp$yiTj]:8phRw{cC": {
+        "opcode": "operator_equals",
+        "next": null,
+        "parent": ",qiVu.p9l:!g}#p??|q0",
+        "inputs": {
+          "OPERAND1": [
+            3,
+            [
+              12,
+              "Nilai",
+              "!vNT)Ewoq*Hc#J-c|P%e"
+            ],
+            [
+              10,
+              ""
+            ]
+          ],
+          "OPERAND2": [
+            1,
+            [
+              10,
+              "30"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "H+c|,dFNDi:pt@POGF?E": {
+        "opcode": "control_if_else",
+        "next": null,
+        "parent": null,
+        "inputs": {
+          "CONDITION": [
+            2,
+            "i#daV/7Y]/Cvpmwd7Y=M"
+          ],
+          "SUBSTACK": [
+            2,
+            "d9a4QEV]vK?2{a=y*sr;"
+          ],
+          "SUBSTACK2": [
+            2,
+            ";7W96G!)dn~l$+6D5}o7"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 572,
+        "y": -620
+      },
+      "i#daV/7Y]/Cvpmwd7Y=M": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": "H+c|,dFNDi:pt@POGF?E",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            ".HHPYx1Rsk-Pk=@M~=-("
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ".HHPYx1Rsk-Pk=@M~=-(": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "i#daV/7Y]/Cvpmwd7Y=M",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "TempatSampahMerah",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "d9a4QEV]vK?2{a=y*sr;": {
+        "opcode": "data_setvariableto",
+        "next": "XfbGwn5?p:Nt/80|)9PC",
+        "parent": "H+c|,dFNDi:pt@POGF?E",
+        "inputs": {
+          "VALUE": [
+            3,
+            "1c8{qCftV_5^VNpzIWVN",
+            [
+              10,
+              "0"
+            ]
+          ]
+        },
+        "fields": {
+          "VARIABLE": [
+            "Nilai",
+            "!vNT)Ewoq*Hc#J-c|P%e"
+          ]
+        },
+        "shadow": false,
+        "topLevel": false
+      },
+      "1c8{qCftV_5^VNpzIWVN": {
+        "opcode": "operator_add",
+        "next": null,
+        "parent": "d9a4QEV]vK?2{a=y*sr;",
+        "inputs": {
+          "NUM1": [
+            3,
+            [
+              12,
+              "Nilai",
+              "!vNT)Ewoq*Hc#J-c|P%e"
+            ],
+            [
+              4,
+              ""
+            ]
+          ],
+          "NUM2": [
+            1,
+            [
+              4,
+              "10"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "XfbGwn5?p:Nt/80|)9PC": {
+        "opcode": "looks_hide",
+        "next": "%RPHoz!5fUwCzTaH9ZMw",
+        "parent": "d9a4QEV]vK?2{a=y*sr;",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "%RPHoz!5fUwCzTaH9ZMw": {
+        "opcode": "sound_playuntildone",
+        "next": null,
+        "parent": "XfbGwn5?p:Nt/80|)9PC",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "Sa$HCV~yb9Zy^3g)Ig:A"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Sa$HCV~yb9Zy^3g)Ig:A": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": "%RPHoz!5fUwCzTaH9ZMw",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "notif sampah",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      ";7W96G!)dn~l$+6D5}o7": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "H+c|,dFNDi:pt@POGF?E",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "#M,1E8mJj!ce9G-c$!Cw"
+          ],
+          "SUBSTACK": [
+            2,
+            "WP9+K5AbHdzRUrX|ats8"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "#M,1E8mJj!ce9G-c$!Cw": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": ";7W96G!)dn~l$+6D5}o7",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "/ASvcE3R1?|3]aDew;w$"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "/ASvcE3R1?|3]aDew;w$": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "#M,1E8mJj!ce9G-c$!Cw",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "TempatSampahHijau",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "WP9+K5AbHdzRUrX|ats8": {
+        "opcode": "sound_play",
+        "next": "?F0k49NPrti?!G6UFy+C",
+        "parent": ";7W96G!)dn~l$+6D5}o7",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "$qd7-v%:eUbDe@0uzg#c"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "$qd7-v%:eUbDe@0uzg#c": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": "WP9+K5AbHdzRUrX|ats8",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "salah",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "?F0k49NPrti?!G6UFy+C": {
+        "opcode": "looks_sayforsecs",
+        "next": "O/MI[yjY#e?{jr0Z,Ajm",
+        "parent": "WP9+K5AbHdzRUrX|ats8",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Salah! Silahkan coba lagi"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "O/MI[yjY#e?{jr0Z,Ajm": {
+        "opcode": "motion_setx",
+        "next": "H}jOqqTU8|yJxoAay8q9",
+        "parent": "?F0k49NPrti?!G6UFy+C",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "-5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "H}jOqqTU8|yJxoAay8q9": {
+        "opcode": "motion_sety",
+        "next": null,
+        "parent": "O/MI[yjY#e?{jr0Z,Ajm",
+        "inputs": {
+          "Y": [
+            1,
+            [
+              4,
+              "-120"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "UumJT{jEWHI$adxytud*": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": null,
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "PLAY",
+            "kV9f/QqTbWJ/#$[%d@Dx"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 347,
+        "y": -864
+      },
+      "r2v744~~3f%t;EiXN7V0": {
+        "opcode": "control_wait",
+        "next": null,
+        "parent": null,
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 519,
+        "y": -796
+      },
+      "]%wXSx[lHi-Q0q1-:fRo": {
+        "opcode": "event_whenflagclicked",
+        "next": "bYg*jTc?4V+OlSo|KV))",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 134,
+        "y": -1081
+      },
+      "bYg*jTc?4V+OlSo|KV))": {
+        "opcode": "data_setvariableto",
+        "next": "M2xCr+.fRmn0r(cmV?b{",
+        "parent": "]%wXSx[lHi-Q0q1-:fRo",
+        "inputs": {
+          "VALUE": [
+            1,
+            [
+              10,
+              "0"
+            ]
+          ]
+        },
+        "fields": {
+          "VARIABLE": [
+            "Nilai",
+            "!vNT)Ewoq*Hc#J-c|P%e"
+          ]
+        },
+        "shadow": false,
+        "topLevel": false
+      },
+      "M2xCr+.fRmn0r(cmV?b{": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "bYg*jTc?4V+OlSo|KV))",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "milk-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "aa5f1501805aa68d3ad74623f59e6135",
+        "md5ext": "aa5f1501805aa68d3ad74623f59e6135.svg",
+        "rotationCenterX": 32,
+        "rotationCenterY": 63
+      },
+      {
+        "name": "milk-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "0f683f65c737bbcbb916df0895d8436e",
+        "md5ext": "0f683f65c737bbcbb916df0895d8436e.svg",
+        "rotationCenterX": 42,
+        "rotationCenterY": 64
+      },
+      {
+        "name": "milk-c",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "1fa49d62f8028a375470e7bac451e666",
+        "md5ext": "1fa49d62f8028a375470e7bac451e666.svg",
+        "rotationCenterX": 47,
+        "rotationCenterY": 56
+      },
+      {
+        "name": "milk-d",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "4d3eabd3ef848b61c3120d796c274733",
+        "md5ext": "4d3eabd3ef848b61c3120d796c274733.svg",
+        "rotationCenterX": 45,
+        "rotationCenterY": 64
+      },
+      {
+        "name": "milk-e",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "6ec300ae45758eff12e9d47cf4f0d2a0",
+        "md5ext": "6ec300ae45758eff12e9d47cf4f0d2a0.svg",
+        "rotationCenterX": 35,
+        "rotationCenterY": 45
+      }
+    ],
+    "sounds": [
+      {
+        "name": "glug",
+        "assetId": "5606722c6105f3c58f9689a958f5c45f",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 12193,
+        "md5ext": "5606722c6105f3c58f9689a958f5c45f.wav"
+      },
+      {
+        "name": "notif sampah",
+        "assetId": "aa2279401f029fc2cbc5716ae64ec7e0",
+        "dataFormat": "mp3",
+        "rate": 48000,
+        "sampleCount": 35712,
+        "md5ext": "aa2279401f029fc2cbc5716ae64ec7e0.mp3"
+      },
+      {
+        "name": "salah",
+        "assetId": "614eef90108a9df19ceb7ff6389b2561",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 44683,
+        "md5ext": "614eef90108a9df19ceb7ff6389b2561.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 10,
+    "visible": false,
+    "x": -5,
+    "y": -120,
+    "size": 50,
+    "direction": 90,
+    "draggable": true,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "KalengBekas",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "f3J$H$k5jhczj]FEsKkx": {
+        "opcode": "event_whenthisspriteclicked",
+        "next": "@byFQExhx}fE`y`4z*@B",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 599,
+        "y": -215
+      },
+      "@byFQExhx}fE`y`4z*@B": {
+        "opcode": "sensing_setdragmode",
+        "next": null,
+        "parent": "f3J$H$k5jhczj]FEsKkx",
+        "inputs": {},
+        "fields": {
+          "DRAG_MODE": [
+            "draggable",
+            null
+          ]
+        },
+        "shadow": false,
+        "topLevel": false
+      },
+      "ZoA^17}K}~$Q.W`VJ_s~": {
+        "opcode": "looks_show",
+        "next": "#9cX`IVi#HVWrv5T-lth",
+        "parent": "?rUmT^(OaK5=3[R(CmxD",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "#9cX`IVi#HVWrv5T-lth": {
+        "opcode": "motion_setx",
+        "next": "o~*UWO*/Ca(fDj_1@br8",
+        "parent": "ZoA^17}K}~$Q.W`VJ_s~",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "-70"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "o~*UWO*/Ca(fDj_1@br8": {
+        "opcode": "motion_sety",
+        "next": ",qiVu.p9l:!g}#p??|q0",
+        "parent": "#9cX`IVi#HVWrv5T-lth",
+        "inputs": {
+          "Y": [
+            1,
+            [
+              4,
+              "-120"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      ",qiVu.p9l:!g}#p??|q0": {
+        "opcode": "control_repeat_until",
+        "next": null,
+        "parent": "o~*UWO*/Ca(fDj_1@br8",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "dTjcp$yiTj]:8phRw{cC"
+          ],
+          "SUBSTACK": [
+            2,
+            "H+c|,dFNDi:pt@POGF?E"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "dTjcp$yiTj]:8phRw{cC": {
+        "opcode": "operator_equals",
+        "next": null,
+        "parent": ",qiVu.p9l:!g}#p??|q0",
+        "inputs": {
+          "OPERAND1": [
+            3,
+            [
+              12,
+              "Nilai",
+              "!vNT)Ewoq*Hc#J-c|P%e"
+            ],
+            [
+              10,
+              ""
+            ]
+          ],
+          "OPERAND2": [
+            1,
+            [
+              10,
+              "30"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "H+c|,dFNDi:pt@POGF?E": {
+        "opcode": "control_if_else",
+        "next": null,
+        "parent": ",qiVu.p9l:!g}#p??|q0",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "i#daV/7Y]/Cvpmwd7Y=M"
+          ],
+          "SUBSTACK": [
+            2,
+            "d9a4QEV]vK?2{a=y*sr;"
+          ],
+          "SUBSTACK2": [
+            2,
+            ";7W96G!)dn~l$+6D5}o7"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "i#daV/7Y]/Cvpmwd7Y=M": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": "H+c|,dFNDi:pt@POGF?E",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "(.7PcG#j6c=2frtF(QCw"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "(.7PcG#j6c=2frtF(QCw": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "i#daV/7Y]/Cvpmwd7Y=M",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "TempatSampahMerah",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "d9a4QEV]vK?2{a=y*sr;": {
+        "opcode": "data_setvariableto",
+        "next": "XfbGwn5?p:Nt/80|)9PC",
+        "parent": "H+c|,dFNDi:pt@POGF?E",
+        "inputs": {
+          "VALUE": [
+            3,
+            "1c8{qCftV_5^VNpzIWVN",
+            [
+              10,
+              "0"
+            ]
+          ]
+        },
+        "fields": {
+          "VARIABLE": [
+            "Nilai",
+            "!vNT)Ewoq*Hc#J-c|P%e"
+          ]
+        },
+        "shadow": false,
+        "topLevel": false
+      },
+      "1c8{qCftV_5^VNpzIWVN": {
+        "opcode": "operator_add",
+        "next": null,
+        "parent": "d9a4QEV]vK?2{a=y*sr;",
+        "inputs": {
+          "NUM1": [
+            3,
+            [
+              12,
+              "Nilai",
+              "!vNT)Ewoq*Hc#J-c|P%e"
+            ],
+            [
+              4,
+              ""
+            ]
+          ],
+          "NUM2": [
+            1,
+            [
+              4,
+              "10"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "XfbGwn5?p:Nt/80|)9PC": {
+        "opcode": "looks_hide",
+        "next": "WKe~CkQ!BdeYS@mu+K*l",
+        "parent": "d9a4QEV]vK?2{a=y*sr;",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "WKe~CkQ!BdeYS@mu+K*l": {
+        "opcode": "sound_playuntildone",
+        "next": null,
+        "parent": "XfbGwn5?p:Nt/80|)9PC",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "0!T-TX|(W{iH5cKLW~W["
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "0!T-TX|(W{iH5cKLW~W[": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": "WKe~CkQ!BdeYS@mu+K*l",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "notif sampah",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      ";7W96G!)dn~l$+6D5}o7": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "H+c|,dFNDi:pt@POGF?E",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "#M,1E8mJj!ce9G-c$!Cw"
+          ],
+          "SUBSTACK": [
+            2,
+            "LFXxTQ;v,,d*`2hlRiBV"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "#M,1E8mJj!ce9G-c$!Cw": {
+        "opcode": "sensing_touchingobject",
+        "next": null,
+        "parent": ";7W96G!)dn~l$+6D5}o7",
+        "inputs": {
+          "TOUCHINGOBJECTMENU": [
+            1,
+            "6G(^[FS*bsDh=oT/{GI*"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "6G(^[FS*bsDh=oT/{GI*": {
+        "opcode": "sensing_touchingobjectmenu",
+        "next": null,
+        "parent": "#M,1E8mJj!ce9G-c$!Cw",
+        "inputs": {},
+        "fields": {
+          "TOUCHINGOBJECTMENU": [
+            "TempatSampahHijau",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "LFXxTQ;v,,d*`2hlRiBV": {
+        "opcode": "sound_play",
+        "next": "?F0k49NPrti?!G6UFy+C",
+        "parent": ";7W96G!)dn~l$+6D5}o7",
+        "inputs": {
+          "SOUND_MENU": [
+            1,
+            "#.^H;`E([x+-)`%@{0w}"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "#.^H;`E([x+-)`%@{0w}": {
+        "opcode": "sound_sounds_menu",
+        "next": null,
+        "parent": "LFXxTQ;v,,d*`2hlRiBV",
+        "inputs": {},
+        "fields": {
+          "SOUND_MENU": [
+            "salah",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "?F0k49NPrti?!G6UFy+C": {
+        "opcode": "looks_sayforsecs",
+        "next": "O/MI[yjY#e?{jr0Z,Ajm",
+        "parent": "LFXxTQ;v,,d*`2hlRiBV",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Salah! Silahkan coba lagi"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "O/MI[yjY#e?{jr0Z,Ajm": {
+        "opcode": "motion_setx",
+        "next": "H}jOqqTU8|yJxoAay8q9",
+        "parent": "?F0k49NPrti?!G6UFy+C",
+        "inputs": {
+          "X": [
+            1,
+            [
+              4,
+              "-70"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "H}jOqqTU8|yJxoAay8q9": {
+        "opcode": "motion_sety",
+        "next": null,
+        "parent": "O/MI[yjY#e?{jr0Z,Ajm",
+        "inputs": {
+          "Y": [
+            1,
+            [
+              4,
+              "-120"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "z)QgG?jr.)X2{}]SUje/": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "?rUmT^(OaK5=3[R(CmxD",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "PLAY",
+            "kV9f/QqTbWJ/#$[%d@Dx"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 181,
+        "y": -3
+      },
+      "?rUmT^(OaK5=3[R(CmxD": {
+        "opcode": "control_wait",
+        "next": "ZoA^17}K}~$Q.W`VJ_s~",
+        "parent": "z)QgG?jr.)X2{}]SUje/",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "]%wXSx[lHi-Q0q1-:fRo": {
+        "opcode": "event_whenflagclicked",
+        "next": "bYg*jTc?4V+OlSo|KV))",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 194,
+        "y": -235
+      },
+      "bYg*jTc?4V+OlSo|KV))": {
+        "opcode": "data_setvariableto",
+        "next": "MYFgY9Zul~s{~apcnVwc",
+        "parent": "]%wXSx[lHi-Q0q1-:fRo",
+        "inputs": {
+          "VALUE": [
+            1,
+            [
+              10,
+              "0"
+            ]
+          ]
+        },
+        "fields": {
+          "VARIABLE": [
+            "Nilai",
+            "!vNT)Ewoq*Hc#J-c|P%e"
+          ]
+        },
+        "shadow": false,
+        "topLevel": false
+      },
+      "MYFgY9Zul~s{~apcnVwc": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "bYg*jTc?4V+OlSo|KV))",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "KalengBekas",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "2cdfcc7bef576b99c2f0f0a8853a9d0d",
+        "md5ext": "2cdfcc7bef576b99c2f0f0a8853a9d0d.png",
+        "rotationCenterX": 247.5,
+        "rotationCenterY": 289
+      }
+    ],
+    "sounds": [
+      {
+        "name": "notif sampah",
+        "assetId": "aa2279401f029fc2cbc5716ae64ec7e0",
+        "dataFormat": "mp3",
+        "rate": 48000,
+        "sampleCount": 35712,
+        "md5ext": "aa2279401f029fc2cbc5716ae64ec7e0.mp3"
+      },
+      {
+        "name": "salah",
+        "assetId": "9a6ebd59266412d4c124ef83f578c7cd",
+        "dataFormat": "mp3",
+        "rate": 48000,
+        "sampleCount": 62208,
+        "md5ext": "9a6ebd59266412d4c124ef83f578c7cd.mp3"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 9,
+    "visible": true,
+    "x": -70,
+    "y": -120,
+    "size": 25,
+    "direction": 90,
+    "draggable": true,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Sprite2",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "9xY{`SyHPm^I/fsNn4qO": {
+        "opcode": "event_whenflagclicked",
+        "next": "gp6/i{|oyc`SUGPt^_AT",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 337,
+        "y": -536
+      },
+      "gp6/i{|oyc`SUGPt^_AT": {
+        "opcode": "looks_hide",
+        "next": "^fKLZ(6J;4!!PC;KInXO",
+        "parent": "9xY{`SyHPm^I/fsNn4qO",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "^fKLZ(6J;4!!PC;KInXO": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "gp6/i{|oyc`SUGPt^_AT",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "7:G=^1FsCRBQOeGlY_Lw"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "7:G=^1FsCRBQOeGlY_Lw": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "^fKLZ(6J;4!!PC;KInXO",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "}gMYVA,blH,sU2mx2!ad"
+          ],
+          "SUBSTACK": [
+            2,
+            "yQF,A3XR=;m6#cVrjvF0"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "}gMYVA,blH,sU2mx2!ad": {
+        "opcode": "operator_equals",
+        "next": null,
+        "parent": "7:G=^1FsCRBQOeGlY_Lw",
+        "inputs": {
+          "OPERAND1": [
+            3,
+            [
+              12,
+              "Nilai",
+              "!vNT)Ewoq*Hc#J-c|P%e"
+            ],
+            [
+              10,
+              ""
+            ]
+          ],
+          "OPERAND2": [
+            1,
+            [
+              10,
+              "30"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "yQF,A3XR=;m6#cVrjvF0": {
+        "opcode": "looks_show",
+        "next": "Rwp.NDGWvVWgahuS2=Eh",
+        "parent": "7:G=^1FsCRBQOeGlY_Lw",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Rwp.NDGWvVWgahuS2=Eh": {
+        "opcode": "control_wait",
+        "next": "@7tD[5/F=nYqu@0{RpB:",
+        "parent": "yQF,A3XR=;m6#cVrjvF0",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "0.3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "@7tD[5/F=nYqu@0{RpB:": {
+        "opcode": "looks_nextcostume",
+        "next": null,
+        "parent": "Rwp.NDGWvVWgahuS2=Eh",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "costume1",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "adc2a0eea2ba61cdf6fe8153619def9d",
+        "md5ext": "adc2a0eea2ba61cdf6fe8153619def9d.svg",
+        "rotationCenterX": 205.08940519620114,
+        "rotationCenterY": 103.03608383531962
+      },
+      {
+        "name": "costume2",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "4adaacce87b301f69f91f1fb075aae15",
+        "md5ext": "4adaacce87b301f69f91f1fb075aae15.svg",
+        "rotationCenterX": 205.08940519620114,
+        "rotationCenterY": 103.03608383531962
+      },
+      {
+        "name": "costume3",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "292ccc5681344655727ed2fdbf9c0273",
+        "md5ext": "292ccc5681344655727ed2fdbf9c0273.svg",
+        "rotationCenterX": 205.08940519620114,
+        "rotationCenterY": 103.03602383531961
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      },
+      {
+        "name": "claps-44774 (1)",
+        "assetId": "791ae0791c33b7b08ee46d2bf046e237",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 66120,
+        "md5ext": "791ae0791c33b7b08ee46d2bf046e237.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 1,
+    "visible": false,
+    "x": 36,
+    "y": 28,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Sprite3",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "=ENZ6fUSMLN9N;O(pnp*": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "J`M%G`#~(Gf?KY}7?*]f",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "PLAY",
+            "kV9f/QqTbWJ/#$[%d@Dx"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 311,
+        "y": -1072
+      },
+      "NrYJzoRTVO%`E+#WsyUc": {
+        "opcode": "event_whenflagclicked",
+        "next": "#_b7)!Q.Eh@w0Y$H$JZx",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 95,
+        "y": -1079
+      },
+      "#_b7)!Q.Eh@w0Y$H$JZx": {
+        "opcode": "looks_show",
+        "next": null,
+        "parent": "NrYJzoRTVO%`E+#WsyUc",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "J`M%G`#~(Gf?KY}7?*]f": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "=ENZ6fUSMLN9N;O(pnp*",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "costume1",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "e1fe665846418d44cc962458747737d0",
+        "md5ext": "e1fe665846418d44cc962458747737d0.svg",
+        "rotationCenterX": 142.5,
+        "rotationCenterY": -93.99999999999994
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 6,
+    "visible": false,
+    "x": 36,
+    "y": 28,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Sprite4",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      ";xJu.p7n2?SW^et,oFG@": {
+        "opcode": "event_whenflagclicked",
+        "next": "8Z1xPbX1pH}Q{[VktAeZ",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 281,
+        "y": -1035
+      },
+      "6jokHxjH?lHZ!,-4X5xC": {
+        "opcode": "looks_show",
+        "next": "J/::v==kG{?*13xA`rv%",
+        "parent": "de+lg[X/?aS`Q5Y1KZsZ",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "de+lg[X/?aS`Q5Y1KZsZ": {
+        "opcode": "event_whenbroadcastreceived",
+        "next": "6jokHxjH?lHZ!,-4X5xC",
+        "parent": null,
+        "inputs": {},
+        "fields": {
+          "BROADCAST_OPTION": [
+            "PLAY",
+            "kV9f/QqTbWJ/#$[%d@Dx"
+          ]
+        },
+        "shadow": false,
+        "topLevel": true,
+        "x": 532,
+        "y": -1026
+      },
+      "8Z1xPbX1pH}Q{[VktAeZ": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": ";xJu.p7n2?SW^et,oFG@",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "rV@!L_t;5449T-7yW,zC": {
+        "opcode": "control_if",
+        "next": null,
+        "parent": "J/::v==kG{?*13xA`rv%",
+        "inputs": {
+          "CONDITION": [
+            2,
+            "ku:y]f-8dgRzL$Xax_TG"
+          ],
+          "SUBSTACK": [
+            2,
+            "lvTR!fZ!Z@}oiI+qntg="
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "ku:y]f-8dgRzL$Xax_TG": {
+        "opcode": "operator_equals",
+        "next": null,
+        "parent": "rV@!L_t;5449T-7yW,zC",
+        "inputs": {
+          "OPERAND1": [
+            3,
+            [
+              12,
+              "Nilai",
+              "!vNT)Ewoq*Hc#J-c|P%e"
+            ],
+            [
+              10,
+              ""
+            ]
+          ],
+          "OPERAND2": [
+            1,
+            [
+              10,
+              "30"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "lvTR!fZ!Z@}oiI+qntg=": {
+        "opcode": "looks_hide",
+        "next": null,
+        "parent": "rV@!L_t;5449T-7yW,zC",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "J/::v==kG{?*13xA`rv%": {
+        "opcode": "control_forever",
+        "next": null,
+        "parent": "6jokHxjH?lHZ!,-4X5xC",
+        "inputs": {
+          "SUBSTACK": [
+            2,
+            "rV@!L_t;5449T-7yW,zC"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "costume1",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "01c8bbaafe7dff190ca8337717c52d35",
+        "md5ext": "01c8bbaafe7dff190ca8337717c52d35.svg",
+        "rotationCenterX": 95.72287430992446,
+        "rotationCenterY": 128.09313109701702
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 4,
+    "visible": true,
+    "x": -71.63170687833241,
+    "y": 24.549311481884107,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Sprite5",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "costume1",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+        "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+        "rotationCenterX": 0,
+        "rotationCenterY": 0
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 7,
+    "visible": true,
+    "x": 36,
+    "y": 28,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  }
+]

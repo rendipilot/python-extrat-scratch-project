@@ -1,0 +1,672 @@
+[
+  {
+    "isStage": true,
+    "name": "Stage",
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "my variable",
+        0
+      ]
+    },
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 4,
+    "costumes": [
+      {
+        "name": "backdrop1",
+        "dataFormat": "svg",
+        "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+        "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "name": "Playing Field",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "2de108f3098e92f5c5976cf75d38e99d",
+        "md5ext": "2de108f3098e92f5c5976cf75d38e99d.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      },
+      {
+        "name": "Soccer",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "04a63154f04b09494354090f7cc2f1b9",
+        "md5ext": "04a63154f04b09494354090f7cc2f1b9.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      },
+      {
+        "name": "Witch House",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "30085b2d27beb5acdbe895d8b3e64b04",
+        "md5ext": "30085b2d27beb5acdbe895d8b3e64b04.svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "name": "Room 1",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "a81668321aa3dcc0fc185d3e36ae76f6",
+        "md5ext": "a81668321aa3dcc0fc185d3e36ae76f6.png",
+        "rotationCenterX": 480,
+        "rotationCenterY": 360
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 0,
+    "tempo": 60,
+    "videoTransparency": 50,
+    "videoState": "on",
+    "textToSpeechLanguage": null
+  },
+  {
+    "isStage": false,
+    "name": "Ruby",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "PCUfNqYqw?-Ve$t@5b]`": {
+        "opcode": "event_whenflagclicked",
+        "next": "jc6=3uwI.R;^[F^U#?Jm",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 243,
+        "y": -77
+      },
+      "jc6=3uwI.R;^[F^U#?Jm": {
+        "opcode": "motion_movesteps",
+        "next": "ez*S[v?qv);.S_X]ixPb",
+        "parent": "PCUfNqYqw?-Ve$t@5b]`",
+        "inputs": {
+          "STEPS": [
+            1,
+            [
+              4,
+              "20"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "ez*S[v?qv);.S_X]ixPb": {
+        "opcode": "looks_sayforsecs",
+        "next": "~}Zbm*$M*Xl}7UBj_P~1",
+        "parent": "jc6=3uwI.R;^[F^U#?Jm",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Hei Winda. What are you doing sist?"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "~}Zbm*$M*Xl}7UBj_P~1": {
+        "opcode": "control_wait",
+        "next": "A4Y=eyI.b.XPi-EjL@:G",
+        "parent": "ez*S[v?qv);.S_X]ixPb",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "A4Y=eyI.b.XPi-EjL@:G": {
+        "opcode": "looks_thinkforsecs",
+        "next": "7Cv@y(if0*s{L}o8J8|u",
+        "parent": "~}Zbm*$M*Xl}7UBj_P~1",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Hmm..."
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "7Cv@y(if0*s{L}o8J8|u": {
+        "opcode": "looks_sayforsecs",
+        "next": "y@/1=y5T4Bryc%Mkec4e",
+        "parent": "A4Y=eyI.b.XPi-EjL@:G",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "How often do you go to the library, Winda?"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "y@/1=y5T4Bryc%Mkec4e": {
+        "opcode": "control_wait",
+        "next": "e@;E_?[5?5mg9BXFc2~B",
+        "parent": "7Cv@y(if0*s{L}o8J8|u",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "e@;E_?[5?5mg9BXFc2~B": {
+        "opcode": "looks_sayforsecs",
+        "next": "jXn.Fm(IU73sj*jsWJdo",
+        "parent": "y@/1=y5T4Bryc%Mkec4e",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Actually, i rarely visit the library"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "jXn.Fm(IU73sj*jsWJdo": {
+        "opcode": "control_wait",
+        "next": "bhKBi?{#lTqvAi+=4n}~",
+        "parent": "e@;E_?[5?5mg9BXFc2~B",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "bhKBi?{#lTqvAi+=4n}~": {
+        "opcode": "looks_sayforsecs",
+        "next": "bsERrLWFyLg^mm2aH:GR",
+        "parent": "jXn.Fm(IU73sj*jsWJdo",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Waw nice ! Why do you often visit the library,win?"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "bsERrLWFyLg^mm2aH:GR": {
+        "opcode": "control_wait",
+        "next": "nuoyha28odxp9+GeXTC#",
+        "parent": "bhKBi?{#lTqvAi+=4n}~",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "nuoyha28odxp9+GeXTC#": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "bsERrLWFyLg^mm2aH:GR",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Yes,I do agree with you I think,I have to goto my class now,see you "
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "ruby-a",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "c30210e8f719c3a4d2c7cc6917a39300",
+        "md5ext": "c30210e8f719c3a4d2c7cc6917a39300.png",
+        "rotationCenterX": 54,
+        "rotationCenterY": 172
+      },
+      {
+        "name": "ruby-b",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "assetId": "fc15fdbcc535473f6140cab28197f3be",
+        "md5ext": "fc15fdbcc535473f6140cab28197f3be.png",
+        "rotationCenterX": 76,
+        "rotationCenterY": 142
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      },
+      {
+        "name": "Dance Magic",
+        "assetId": "042309f190183383c0b1c1fc3edc2e84",
+        "dataFormat": "wav",
+        "rate": 22050,
+        "sampleCount": 187961,
+        "md5ext": "042309f190183383c0b1c1fc3edc2e84.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 2,
+    "visible": true,
+    "x": -56,
+    "y": -66,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  },
+  {
+    "isStage": false,
+    "name": "Abby",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "g+2EW-mkBRQ6{g3wGB)h": {
+        "opcode": "event_whenflagclicked",
+        "next": "ys1U.1;,1^+]}71EFe+g",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": -25,
+        "y": -91
+      },
+      ",lsU$qtbu9_/XwasG6@}": {
+        "opcode": "looks_sayforsecs",
+        "next": "=(Q)lIJd^K-$UC7L!;F!",
+        "parent": "ys1U.1;,1^+]}71EFe+g",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "I am reading a book"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "=(Q)lIJd^K-$UC7L!;F!": {
+        "opcode": "control_wait",
+        "next": "nhX[nr0*0_d{xU*T(wwi",
+        "parent": ",lsU$qtbu9_/XwasG6@}",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "nhX[nr0*0_d{xU*T(wwi": {
+        "opcode": "looks_sayforsecs",
+        "next": "!;m}=Nf(Gvkj-%2!mJG*",
+        "parent": "=(Q)lIJd^K-$UC7L!;F!",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Twice a day"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "ys1U.1;,1^+]}71EFe+g": {
+        "opcode": "control_wait",
+        "next": ",lsU$qtbu9_/XwasG6@}",
+        "parent": "g+2EW-mkBRQ6{g3wGB)h",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "!;m}=Nf(Gvkj-%2!mJG*": {
+        "opcode": "control_wait",
+        "next": "@7Tq~58y=$g%{WQvUuju",
+        "parent": "nhX[nr0*0_d{xU*T(wwi",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "@7Tq~58y=$g%{WQvUuju": {
+        "opcode": "looks_sayforsecs",
+        "next": "L[`~cTS1HOc#{p(qY0^?",
+        "parent": "!;m}=Nf(Gvkj-%2!mJG*",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Yes,me too"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "L[`~cTS1HOc#{p(qY0^?": {
+        "opcode": "control_wait",
+        "next": "?Oz.#u)Zjt*2#znzJy=s",
+        "parent": "@7Tq~58y=$g%{WQvUuju",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "?Oz.#u)Zjt*2#znzJy=s": {
+        "opcode": "looks_sayforsecs",
+        "next": "9*}a/o4r7FwNMaC*cq2T",
+        "parent": "L[`~cTS1HOc#{p(qY0^?",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "because I fill my spare time to read books"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "9*}a/o4r7FwNMaC*cq2T": {
+        "opcode": "control_wait",
+        "next": "9yc-.aP^q]?:z-`6-iTj",
+        "parent": "?Oz.#u)Zjt*2#znzJy=s",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "9yc-.aP^q]?:z-`6-iTj": {
+        "opcode": "looks_sayforsecs",
+        "next": null,
+        "parent": "9*}a/o4r7FwNMaC*cq2T",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "see you too"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+      {
+        "name": "abby-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "809d9b47347a6af2860e7a3a35bce057",
+        "md5ext": "809d9b47347a6af2860e7a3a35bce057.svg",
+        "rotationCenterX": 31,
+        "rotationCenterY": 100
+      },
+      {
+        "name": "abby-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "920f14335615fff9b8c55fccb8971984",
+        "md5ext": "920f14335615fff9b8c55fccb8971984.svg",
+        "rotationCenterX": 31,
+        "rotationCenterY": 100
+      },
+      {
+        "name": "abby-c",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "34a175600dc009a521eb46fdbbbeeb67",
+        "md5ext": "34a175600dc009a521eb46fdbbbeeb67.svg",
+        "rotationCenterX": 32,
+        "rotationCenterY": 100
+      },
+      {
+        "name": "abby-d",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "45de34b47a2ce22f6f5d28bb35a44ff5",
+        "md5ext": "45de34b47a2ce22f6f5d28bb35a44ff5.svg",
+        "rotationCenterX": 32,
+        "rotationCenterY": 101
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      },
+      {
+        "name": "Dance Magic",
+        "assetId": "042309f190183383c0b1c1fc3edc2e84",
+        "dataFormat": "wav",
+        "rate": 22050,
+        "sampleCount": 187961,
+        "md5ext": "042309f190183383c0b1c1fc3edc2e84.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 1,
+    "visible": true,
+    "x": 102,
+    "y": -46,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  }
+]

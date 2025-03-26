@@ -1,0 +1,689 @@
+[
+  {
+    "isStage": true,
+    "name": "Stage",
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "my variable",
+        0
+      ]
+    },
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {},
+    "comments": {},
+    "currentCostume": 1,
+    "costumes": [
+      {
+        "name": "backdrop1",
+        "dataFormat": "svg",
+        "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+        "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      },
+      {
+        "name": "Witch House",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "30085b2d27beb5acdbe895d8b3e64b04",
+        "md5ext": "30085b2d27beb5acdbe895d8b3e64b04.svg",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      }
+    ],
+    "sounds": [
+      {
+        "name": "pop",
+        "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+        "dataFormat": "wav",
+        "format": "",
+        "rate": 48000,
+        "sampleCount": 1124,
+        "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 0,
+    "tempo": 60,
+    "videoTransparency": 50,
+    "videoState": "on",
+    "textToSpeechLanguage": null
+  },
+  {
+    "isStage": false,
+    "name": "SyakuraaAaa",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+      "b*vv+{}e=Wp5*_%MS5N)": {
+        "opcode": "event_whenflagclicked",
+        "next": "`IWlx.Xou]^cw2kEvw!^",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 31,
+        "y": 56
+      },
+      "Q+B91=JZ?*2btj/Pdpds": {
+        "opcode": "motion_glidesecstoxy",
+        "next": "d_wI/}P54qgzIhtF1%n@",
+        "parent": "`IWlx.Xou]^cw2kEvw!^",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "-22"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-8"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "`IWlx.Xou]^cw2kEvw!^": {
+        "opcode": "looks_switchcostumeto",
+        "next": "Q+B91=JZ?*2btj/Pdpds",
+        "parent": "b*vv+{}e=Wp5*_%MS5N)",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "qRJk$freuK~u2E4@{MNg"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "qRJk$freuK~u2E4@{MNg": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "`IWlx.Xou]^cw2kEvw!^",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "witch-a",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      "w2WViXpSfS@yQZuUT/)(": {
+        "opcode": "looks_sayforsecs",
+        "next": ".pmhWwp^3n/dEVU;P:w4",
+        "parent": "d_wI/}P54qgzIhtF1%n@",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Halo semuanya! "
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "d_wI/}P54qgzIhtF1%n@": {
+        "opcode": "looks_switchcostumeto",
+        "next": "w2WViXpSfS@yQZuUT/)(",
+        "parent": "Q+B91=JZ?*2btj/Pdpds",
+        "inputs": {
+          "COSTUME": [
+            1,
+            "$l!R[tXMT^}Ey8O/Au*B"
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "$l!R[tXMT^}Ey8O/Au*B": {
+        "opcode": "looks_costume",
+        "next": null,
+        "parent": "d_wI/}P54qgzIhtF1%n@",
+        "inputs": {},
+        "fields": {
+          "COSTUME": [
+            "witch-b",
+            null
+          ]
+        },
+        "shadow": true,
+        "topLevel": false
+      },
+      ".pmhWwp^3n/dEVU;P:w4": {
+        "opcode": "looks_sayforsecs",
+        "next": "mK.~/s1e:LU4WsUQ%1-t",
+        "parent": "w2WViXpSfS@yQZuUT/)(",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Perkenalkan nama ku Rizqa Syakura Setiawan bisa dipanggil Rizqa"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "mK.~/s1e:LU4WsUQ%1-t": {
+        "opcode": "looks_sayforsecs",
+        "next": "BVIkH6F@5!z==wNb:``C",
+        "parent": ".pmhWwp^3n/dEVU;P:w4",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Aku adalah anak pertama dari 4 bersaudara, aku memiliki 3 adik perempuan"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "BVIkH6F@5!z==wNb:``C": {
+        "opcode": "looks_sayforsecs",
+        "next": "5CMo/?4ry!1w^Bc^:;[n",
+        "parent": "mK.~/s1e:LU4WsUQ%1-t",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Saat ini aku bersekolah di Madrasah Tsanawiyah Negeri Model Samarinda.tepatnya di Kampus 2."
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "5CMo/?4ry!1w^Bc^:;[n": {
+        "opcode": "looks_sayforsecs",
+        "next": "]FaLJYZewz%|gEHQ6S@O",
+        "parent": "BVIkH6F@5!z==wNb:``C",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Di kelas aku memiliki banyak teman yang imut nan cantik."
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "R9SFw5T@=^X2D/LT,nTS": {
+        "opcode": "looks_sayforsecs",
+        "next": "z]bw3LgAQ~ErTfik,@xN",
+        "parent": "]FaLJYZewz%|gEHQ6S@O",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Saat ini aku berumur 13 tahun, aku lahir di Samarinda tanggal 31 Januari 2011"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "Hdpq#{4dY}p%Zm!GH.fI": {
+        "opcode": "looks_sayforsecs",
+        "next": "(=/b3rc{=LJg=_zfIR`Q",
+        "parent": "z]bw3LgAQ~ErTfik,@xN",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Aku adalah alumni dari Sekolah Dasar Muhammadiyah 5 Samarinda."
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "vGB{,hA?Onk;TS0{7vd9": {
+        "opcode": "looks_sayforsecs",
+        "next": "ln--!]*NcgiG{lX!%.*f",
+        "parent": "(=/b3rc{=LJg=_zfIR`Q",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Saat aku TK aku bercita cita ingin menjadi dokter anak, "
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "z]bw3LgAQ~ErTfik,@xN": {
+        "opcode": "control_wait",
+        "next": "Hdpq#{4dY}p%Zm!GH.fI",
+        "parent": "R9SFw5T@=^X2D/LT,nTS",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "ln--!]*NcgiG{lX!%.*f": {
+        "opcode": "looks_sayforsecs",
+        "next": "srS(RRG6P(!85+ayBLrd",
+        "parent": "vGB{,hA?Onk;TS0{7vd9",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Tapi saat aku berada di kelas 4 SD sampai sekarang aku bercita cita ingin menjadi Dosen."
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "4"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "$s|sxgYA$}Hf?M`*bt4R": {
+        "opcode": "looks_sayforsecs",
+        "next": "[:/UR9HT(W5Q$wWV~5Mx",
+        "parent": "srS(RRG6P(!85+ayBLrd",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Ya.. walaupun pekerjaan dosen dan guru ga beda jauh, aku tetap memilih untuk menjadi dosen ^^. "
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "4"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "srS(RRG6P(!85+ayBLrd": {
+        "opcode": "control_wait",
+        "next": "$s|sxgYA$}Hf?M`*bt4R",
+        "parent": "ln--!]*NcgiG{lX!%.*f",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "[:/UR9HT(W5Q$wWV~5Mx": {
+        "opcode": "control_wait",
+        "next": "kkC3NMJF@i0fEEBY`g2G",
+        "parent": "$s|sxgYA$}Hf?M`*bt4R",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "2"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "kkC3NMJF@i0fEEBY`g2G": {
+        "opcode": "looks_sayforsecs",
+        "next": "=B]6,Ig^J*JKUw(!$0dw",
+        "parent": "[:/UR9HT(W5Q$wWV~5Mx",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Aku juga memiliki hobi seperti mendengarkan lagu, membaca dan menulis."
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "=B]6,Ig^J*JKUw(!$0dw": {
+        "opcode": "looks_sayforsecs",
+        "next": "{,!|)71]B[9XKFy3DWt:",
+        "parent": "kkC3NMJF@i0fEEBY`g2G",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Aku sangat suka sekali sama mata pelajaran bahasa,, seperti mata pelajaran bahasa inggris dan bahasa arab."
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "29=3omYbWeeCFKQrCeW3": {
+        "opcode": "looks_sayforsecs",
+        "next": "8WmW3$X14dU0Y!fZedSO",
+        "parent": "{,!|)71]B[9XKFy3DWt:",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Kayak nya segitu aja deh story telling tentang diri ku yang imut inii"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "3"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "8WmW3$X14dU0Y!fZedSO": {
+        "opcode": "looks_sayforsecs",
+        "next": "JcB/V*ynTU4B%SUXGY{2",
+        "parent": "29=3omYbWeeCFKQrCeW3",
+        "inputs": {
+          "MESSAGE": [
+            1,
+            [
+              10,
+              "Sekian, dan Terimakasiii ^^, kalau ada salah kata mohon dimaafkan yaa tapi cewe kan ga pernah salah jadi yaudah babaiiii"
+            ]
+          ],
+          "SECS": [
+            1,
+            [
+              4,
+              "5"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "JcB/V*ynTU4B%SUXGY{2": {
+        "opcode": "motion_glidesecstoxy",
+        "next": null,
+        "parent": "8WmW3$X14dU0Y!fZedSO",
+        "inputs": {
+          "SECS": [
+            1,
+            [
+              4,
+              "1"
+            ]
+          ],
+          "X": [
+            1,
+            [
+              4,
+              "226"
+            ]
+          ],
+          "Y": [
+            1,
+            [
+              4,
+              "-1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "]FaLJYZewz%|gEHQ6S@O": {
+        "opcode": "control_wait",
+        "next": "R9SFw5T@=^X2D/LT,nTS",
+        "parent": "5CMo/?4ry!1w^Bc^:;[n",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "(=/b3rc{=LJg=_zfIR`Q": {
+        "opcode": "control_wait",
+        "next": "vGB{,hA?Onk;TS0{7vd9",
+        "parent": "Hdpq#{4dY}p%Zm!GH.fI",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      },
+      "{,!|)71]B[9XKFy3DWt:": {
+        "opcode": "control_wait",
+        "next": "29=3omYbWeeCFKQrCeW3",
+        "parent": "=B]6,Ig^J*JKUw(!$0dw",
+        "inputs": {
+          "DURATION": [
+            1,
+            [
+              5,
+              "1"
+            ]
+          ]
+        },
+        "fields": {},
+        "shadow": false,
+        "topLevel": false
+      }
+    },
+    "comments": {},
+    "currentCostume": 1,
+    "costumes": [
+      {
+        "name": "witch-a",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "44cbaf358d2d8e66815e447c25a4b72e",
+        "md5ext": "44cbaf358d2d8e66815e447c25a4b72e.svg",
+        "rotationCenterX": 65,
+        "rotationCenterY": 140
+      },
+      {
+        "name": "witch-b",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "b10fb75f426397e10c878fda19d92009",
+        "md5ext": "b10fb75f426397e10c878fda19d92009.svg",
+        "rotationCenterX": 65,
+        "rotationCenterY": 140
+      },
+      {
+        "name": "witch-c",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "668c9dc76ba6a07bebabf5aed4623566",
+        "md5ext": "668c9dc76ba6a07bebabf5aed4623566.svg",
+        "rotationCenterX": 65,
+        "rotationCenterY": 140
+      },
+      {
+        "name": "witch-d",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "assetId": "a7e48fc790511fbd46b30b1cdcdc98fc",
+        "md5ext": "a7e48fc790511fbd46b30b1cdcdc98fc.svg",
+        "rotationCenterX": 65,
+        "rotationCenterY": 140
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Magic Spell",
+        "assetId": "1cb60ecdb1075c8769cb346d5c2a22c7",
+        "dataFormat": "wav",
+        "format": "adpcm",
+        "rate": 22050,
+        "sampleCount": 43689,
+        "md5ext": "1cb60ecdb1075c8769cb346d5c2a22c7.wav"
+      }
+    ],
+    "volume": 100,
+    "layerOrder": 1,
+    "visible": true,
+    "x": -22,
+    "y": -8,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+  }
+]
