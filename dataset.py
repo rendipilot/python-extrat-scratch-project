@@ -25,6 +25,7 @@ def setDataset(name, blocktype, blockcount):
         "sound_ratio" : block_data["sound"] /total_blocks if total_blocks else 0,
         "events_ratio" : block_data["events"] /total_blocks if total_blocks else 0,
         "control_ratio" : block_data["control"] /total_blocks if total_blocks else 0,
+        "sennsing_ratio": block_data["sensing"] /total_blocks if total_blocks else 0,
         "operators_ratio" : block_data["operators"] /total_blocks if total_blocks else 0,
         "variables_ratio" : block_data["variables"] /total_blocks if total_blocks else 0,
         "myblocks_ratio" : 1 if block_data["myblocks"] > 0 else 0,

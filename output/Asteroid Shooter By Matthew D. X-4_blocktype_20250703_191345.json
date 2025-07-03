@@ -1,0 +1,11 @@
+{
+  "motion": 80,
+  "looks": 103,
+  "sound": 26,
+  "events": 84,
+  "control": 63,
+  "operators": 31,
+  "variables": 48,
+  "sensing": 23,
+  "myblocks": 18
+}

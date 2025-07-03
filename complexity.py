@@ -29,8 +29,8 @@ def check_logical_score(project_data):
             complexity_score += 1 * project_data[type]
         elif (type == "variables"):
             complexity_score += 0.5 * project_data[type]
-        elif (type == "operators"):
-            complexity_score += 2 * project_data[type]
+        elif (type == "sensing"):
+            complexity_score += 1 * project_data[type]
 
     return complexity_score
 

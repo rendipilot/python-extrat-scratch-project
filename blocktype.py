@@ -13,7 +13,8 @@ def process_project_data(input_file_path, output_file_path):
         "events": 0, 
         "control": 0, 
         "operators": 0, 
-        "variables": 0, 
+        "variables": 0,
+        "sensing": 0, 
         "myblocks": 0
     }
 
@@ -37,6 +38,8 @@ def process_project_data(input_file_path, output_file_path):
                 block_categories["events"] += 1
             elif "control" in opcode:
                 block_categories["control"] += 1
+            elif "sensing" in opcode:
+                block_categories["sensing"] += 1
             elif "operator" in opcode:
                 block_categories["operators"] += 1
             elif "data" in opcode:
